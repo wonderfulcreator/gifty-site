@@ -17,7 +17,7 @@ export default function WholesaleDashboardPage() {
             Оптовый кабинет
           </h1>
           <p className="mt-4 text-sm text-zinc-600">
-            Оптовые цены, фильтры, быстрый заказ и правила MOQ/кратности.
+            Оптовые цены, MOQ и кратность. Для закупки используйте оптовый каталог или быстрый заказ.
           </p>
         </div>
 
@@ -31,12 +31,12 @@ export default function WholesaleDashboardPage() {
           href="/wholesale/catalog"
           className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition hover:shadow-soft"
         >
-          <div className="text-sm font-semibold">Каталог (опт)</div>
+          <div className="text-sm font-semibold">Оптовый каталог</div>
           <p className="mt-2 text-sm text-zinc-600">
-            Карточки товаров + фильтры, но с оптовыми ценами.
+            Ассортимент с фильтрами и оптовыми ценами. Удобно подбирать позиции и проверять наличие.
           </p>
           <div className="mt-4 text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4">
-            Открыть →
+            Перейти →
           </div>
         </Link>
 
@@ -46,45 +46,18 @@ export default function WholesaleDashboardPage() {
         >
           <div className="text-sm font-semibold">Быстрый заказ</div>
           <p className="mt-2 text-sm text-zinc-600">
-            Таблица по SKU: ввод количества → в корзину.
+            Табличный ввод количества по товарам. Подходит для регулярных закупок и пополнения.
           </p>
           <div className="mt-4 text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4">
-            Открыть →
-          </div>
-        </Link>
-
-        <Link
-          href="/wholesale/lists"
-          className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition hover:shadow-soft"
-        >
-          <div className="text-sm font-semibold">Списки / Repeat order</div>
-          <p className="mt-2 text-sm text-zinc-600">
-            Заглушка под списки закупки и повтор заказа.
-          </p>
-          <div className="mt-4 text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4">
-            Открыть →
-          </div>
-        </Link>
-
-        <Link
-          href="/wholesale/orders"
-          className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition hover:shadow-soft"
-        >
-          <div className="text-sm font-semibold">Заказы и документы</div>
-          <p className="mt-2 text-sm text-zinc-600">
-            История/документы/PDF — заглушка под интеграцию.
-          </p>
-          <div className="mt-4 text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4">
-            Открыть →
+            Перейти →
           </div>
         </Link>
       </div>
 
       <div className="mt-10 rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm">
-        <div className="text-sm font-semibold">Подсказка</div>
+        <div className="text-sm font-semibold">Нужна помощь с закупкой?</div>
         <p className="mt-2 text-sm text-zinc-600">
-          Демо‑логин/пароль задаются через переменные окружения. В продакшене
-          обязательно смените <code className="rounded bg-zinc-100 px-1">JWT_SECRET</code>.
+          Напишите нам — поможем собрать наборы, подобрать размеры и рассчитать закупку под ваш ассортимент.
         </p>
       </div>
     </div>

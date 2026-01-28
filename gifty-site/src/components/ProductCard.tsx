@@ -40,7 +40,6 @@ export function ProductCard({
             <Link href={`/shop/product/${product.slug}`} className="text-sm font-medium text-zinc-900 hover:underline">
               {product.title}
             </Link>
-            <div className="mt-1 text-xs text-zinc-500">SKU: {product.sku}</div>
           </div>
           {product.featured ? <Badge>Витрина</Badge> : null}
         </div>

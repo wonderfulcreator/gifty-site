@@ -5,6 +5,8 @@ const WB = process.env.NEXT_PUBLIC_WB_URL;
 const IG = process.env.NEXT_PUBLIC_INSTAGRAM_URL;
 const TG = process.env.NEXT_PUBLIC_TELEGRAM_URL;
 const VK = process.env.NEXT_PUBLIC_VK_URL;
+const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "gifty@shopify.com";
+const CONTACT_PHONE = process.env.NEXT_PUBLIC_CONTACT_PHONE || "+79837221794";
 
 export function Footer() {
   return (
@@ -95,7 +97,7 @@ export function Footer() {
           </div>
 
           <p className="mt-4 text-xs text-zinc-500">
-            Формы на сайте пока в демо‑режиме: отправку подключим отдельно.
+            Для связи: {CONTACT_EMAIL} • {CONTACT_PHONE}
           </p>
         </div>
       </div>

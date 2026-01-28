@@ -60,7 +60,7 @@ export default function HomePage() {
             <div className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm">
               <div className="text-sm font-semibold">Опт</div>
               <p className="mt-2 text-sm text-zinc-600">
-                Быстрый заказ табличным видом: SKU → qty → в корзину.
+                Быстрый заказ табличным видом: выбрать позиции → количество → в корзину.
               </p>
               <Link
                 href="/wholesale/quick-order"
@@ -127,7 +127,7 @@ export default function HomePage() {
                 Для бизнеса
               </h3>
               <p className="mt-3 text-sm text-zinc-600">
-                Оптовые цены, MOQ и кратность. Быстрый заказ по SKU — удобно для закупки и повторных заказов.
+                Оптовые цены, MOQ и кратность. Быстрый заказ помогает быстро собрать закупку и пополнить витрину.
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <Link
@@ -148,19 +148,19 @@ export default function HomePage() {
               <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-5">
                 <div className="text-sm font-semibold">MOQ и кратность</div>
                 <p className="mt-1 text-sm text-zinc-600">
-                  Подсказки в таблице быстрых заказов помогают не ошибиться с минимальным объёмом и шагом заказа.
+                  Минимальные объёмы и шаг заказа помогают планировать закупку и держать стабильную цену.
                 </p>
               </div>
               <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-5">
-                <div className="text-sm font-semibold">Заказы и документы</div>
+                <div className="text-sm font-semibold">Подбор ассортимента</div>
                 <p className="mt-1 text-sm text-zinc-600">
-                  История заказов и документы — раздел в разработке.
+                  Поможем подобрать размеры и цвета под вашу витрину, чтобы линейка смотрелась цельно.
                 </p>
               </div>
               <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-5">
-                <div className="text-sm font-semibold">Повтор заказа</div>
+                <div className="text-sm font-semibold">Быстрый заказ</div>
                 <p className="mt-1 text-sm text-zinc-600">
-                  Собирайте повторный заказ из избранного/списка — без ручного поиска по каталогу.
+                  Таблица товаров ускоряет регулярные закупки: задайте количество и добавьте позиции в корзину.
                 </p>
               </div>
             </div>

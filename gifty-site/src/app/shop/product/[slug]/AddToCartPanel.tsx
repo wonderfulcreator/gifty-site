@@ -34,24 +34,27 @@ export function AddToCartPanel({
           onClick={() => addItem(productId, "retail", qty)}
           className="w-full"
         >
-          Добавить в корзину (розница)
+          Добавить в корзину
         </Button>
       </div>
 
       <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-700">
-        <div className="font-medium text-zinc-900">Опт (MVP)</div>
+        <div className="font-medium text-zinc-900">Опт</div>
         <p className="mt-1 text-sm text-zinc-600">
-          Для оптового заказа рекомендуем кабинет: он подсказывает MOQ и кратность.
+          Для оптовых закупок действует MOQ и кратность. Удобнее всего оформлять через кабинет.
         </p>
         <div className="mt-3 flex flex-wrap gap-2">
           <Button
             variant="secondary"
             onClick={() => addItem(productId, "wholesale", packSize)}
           >
-            Добавить {packSize} шт. (опт)
+            Добавить оптом ({packSize} шт.)
           </Button>
-          <Button variant="ghost" onClick={() => (window.location.href = "/wholesale/quick-order")}>
-            Перейти в быстрый заказ →
+          <Button
+            variant="ghost"
+            onClick={() => (window.location.href = "/wholesale/quick-order")}
+          >
+            Быстрый заказ →
           </Button>
         </div>
       </div>

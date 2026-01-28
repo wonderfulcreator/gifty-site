@@ -73,7 +73,7 @@ export function ProductsClient({ products }: { products: Product[] }) {
               <Input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Название, SKU, коллекция…"
+                placeholder="Название, коллекция…"
               />
             </div>
             <div className="mt-3 text-xs text-zinc-500">

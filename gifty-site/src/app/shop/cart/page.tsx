@@ -73,7 +73,6 @@ export default function CartPage() {
                   </Link>
                   <Badge>{it.mode === "wholesale" ? "Опт" : "Розница"}</Badge>
                 </div>
-                <div className="mt-1 text-xs text-zinc-500">SKU: {p.sku}</div>
 
                 <div className="mt-4 flex flex-wrap items-center gap-3">
                   <div className="text-sm text-zinc-700">
@@ -129,7 +128,7 @@ export default function CartPage() {
           </Link>
 
           <p className="mt-4 text-xs text-zinc-500">
-            Онлайн‑оплата будет подключена позже — пока оформляем как заявку и подтверждаем вручную.
+            После отправки заявки мы свяжемся с вами, уточним детали и подтвердим наличие.
           </p>
 
           <div className="mt-6 md:hidden">

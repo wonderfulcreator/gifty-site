@@ -41,11 +41,10 @@ export default function QuickOrderPage() {
       <div className="flex flex-wrap items-end justify-between gap-6">
         <div className="max-w-2xl">
           <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">
-            Быстрый заказ (опт)
+            Быстрый заказ
           </h1>
           <p className="mt-4 text-sm text-zinc-600">
-            Введите количество — добавьте в корзину. Подсказки по MOQ и кратности
-            показаны, но не блокируют (MVP).
+            Выберите коллекцию и введите количество — позиции добавятся в корзину.
           </p>
         </div>
         <Link
@@ -63,7 +62,7 @@ export default function QuickOrderPage() {
             <Input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="SKU, название, коллекция…"
+                placeholder="Название, коллекция…"
             />
           </div>
         </div>
@@ -96,13 +95,13 @@ export default function QuickOrderPage() {
           <table className="min-w-full text-left text-sm">
             <thead className="sticky top-0 z-10 bg-white">
               <tr className="border-b border-zinc-200">
-                <th className="px-4 py-3 font-semibold text-zinc-900">SKU</th>
+                <th className="px-4 py-3 font-semibold text-zinc-900">Артикул</th>
                 <th className="px-4 py-3 font-semibold text-zinc-900">Товар</th>
                 <th className="px-4 py-3 font-semibold text-zinc-900">Опт цена</th>
                 <th className="px-4 py-3 font-semibold text-zinc-900">MOQ</th>
                 <th className="px-4 py-3 font-semibold text-zinc-900">Кратность</th>
                 <th className="px-4 py-3 font-semibold text-zinc-900">Наличие</th>
-                <th className="px-4 py-3 font-semibold text-zinc-900">Qty</th>
+                <th className="px-4 py-3 font-semibold text-zinc-900">Кол-во</th>
                 <th className="px-4 py-3 font-semibold text-zinc-900"></th>
               </tr>
             </thead>

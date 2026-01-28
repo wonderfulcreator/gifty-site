@@ -16,7 +16,7 @@ export async function generateMetadata({
   if (!product) return {};
   return {
     title: product.title,
-    description: `${product.type} • ${product.material} • ${product.size} • SKU ${product.sku}`,
+    description: `${product.type} • ${product.material} • ${product.size}`,
     openGraph: {
       title: product.title,
       description: `${product.type} • ${product.material} • ${product.size}`,
@@ -56,7 +56,6 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             <Badge>{product.material}</Badge>
             <Badge>{product.color}</Badge>
             <Badge>{product.size}</Badge>
-            <Badge>SKU: {product.sku}</Badge>
           </div>
         </div>
 
@@ -97,17 +96,13 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
             <div className="mt-2 grid gap-1">
               <div>MOQ: {product.moq} шт.</div>
               <div>Кратность: {product.packSize} шт.</div>
-              <div className="text-xs text-zinc-500">
-                В B2B‑кабинете показываем подсказки при нарушении MOQ/кратности.
-              </div>
             </div>
           </div>
 
           <AddToCartPanel productId={product.id} packSize={product.packSize} />
 
           <p className="mt-6 text-xs text-zinc-500">
-            Нужны дополнительные фото и подробное описание (плотность, ламинация, ручки, сертификаты) —
-            добавим в карточку товара.
+            Если нужно подобрать размер или собрать набор под ваш ассортимент — напишите нам, поможем.
           </p>
         </div>
       </div>

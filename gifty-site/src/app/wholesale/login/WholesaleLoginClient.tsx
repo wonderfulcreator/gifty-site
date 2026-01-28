@@ -6,8 +6,8 @@ import { Input } from "@/components/Input";
 import { Button } from "@/components/Button";
 
 export default function WholesaleLoginClient({ nextUrl }: { nextUrl: string }) {
-  const [username, setUsername] = useState("wholesale");
-  const [password, setPassword] = useState("gifty2026");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -37,7 +37,7 @@ export default function WholesaleLoginClient({ nextUrl }: { nextUrl: string }) {
       <div className="mx-auto max-w-xl rounded-3xl border border-zinc-200 bg-white p-10 shadow-sm">
         <h1 className="text-2xl font-semibold tracking-tight">Оптовый кабинет</h1>
         <p className="mt-2 text-sm text-zinc-600">
-          Введите логин и пароль (MVP). Демо-учётка по умолчанию уже подставлена.
+          Введите логин и пароль, чтобы увидеть оптовые цены и оформить закупку.
         </p>
 
         <form className="mt-6 grid gap-3" onSubmit={onSubmit}>
@@ -66,17 +66,9 @@ export default function WholesaleLoginClient({ nextUrl }: { nextUrl: string }) {
         </form>
 
         <div className="mt-6 text-sm text-zinc-600">
-          <div className="font-medium text-zinc-900">Где поменять логин/пароль?</div>
-          <p className="mt-1">
-            В файле <code className="rounded bg-zinc-100 px-1 py-0.5">.env.local</code>{" "}
-            (переменные <code className="rounded bg-zinc-100 px-1 py-0.5">B2B_USERNAME</code> и{" "}
-            <code className="rounded bg-zinc-100 px-1 py-0.5">B2B_PASSWORD</code>).
-          </p>
-          <p className="mt-3">
-            <Link className="underline" href="/">
-              ← На главную
-            </Link>
-          </p>
+          <Link className="underline" href="/">
+            ← На главную
+          </Link>
         </div>
       </div>
     </div>
