@@ -20,7 +20,10 @@
     "images": [
       "/products/bags/b-kraft-001.webp"
     ],
-    "featured": false
+    "featured": false,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": "p0002",
@@ -43,7 +46,10 @@
     "images": [
       "/products/bags/b-kraft-002.webp"
     ],
-    "featured": false
+    "featured": false,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": "p0003",
@@ -67,7 +73,10 @@
     "images": [
       "/products/bags/b-kraft-003.webp"
     ],
-    "featured": false
+    "featured": false,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": "p0004",
@@ -90,7 +99,10 @@
     "images": [
       "/products/bags/b-kraft-004.webp"
     ],
-    "featured": false
+    "featured": false,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": "p0005",
@@ -114,7 +126,12 @@
     "images": [
       "/products/bags/b-xl-4401.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "new",
+      "sale"
+    ]
   },
   {
     "id": "p0006",
@@ -138,7 +155,10 @@
     "images": [
       "/products/bags/b-xl-4402.webp"
     ],
-    "featured": false
+    "featured": false,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": "p0007",
@@ -161,7 +181,10 @@
     "images": [
       "/products/bags/b-xl-4403.webp"
     ],
-    "featured": false
+    "featured": false,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": "p0008",
@@ -185,7 +208,10 @@
     "images": [
       "/products/bags/b-xl-4404.webp"
     ],
-    "featured": false
+    "featured": false,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": "p0009",
@@ -209,7 +235,10 @@
     "images": [
       "/products/bags/b-xl-4405.webp"
     ],
-    "featured": false
+    "featured": false,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": "p0010",
@@ -233,7 +262,10 @@
     "images": [
       "/products/bags/b-xl25-4406.webp"
     ],
-    "featured": false
+    "featured": false,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": "p0011",
@@ -257,7 +289,10 @@
     "images": [
       "/products/bags/b-xl25-4407.webp"
     ],
-    "featured": false
+    "featured": false,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": "p0012",
@@ -280,7 +315,10 @@
     "images": [
       "/products/bags/b-xl25-4408.webp"
     ],
-    "featured": false
+    "featured": false,
+    "tags": [
+      "new"
+    ]
   },
   {
     "id": "p0013",
@@ -352,7 +390,10 @@
     "images": [
       "/products/bags/b-401.webp"
     ],
-    "featured": true
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
   },
   {
     "id": "p0016",
@@ -470,7 +511,11 @@
     "images": [
       "/products/bags/b-406.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0021",
@@ -821,7 +866,11 @@
     "images": [
       "/products/bags/b25-417.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0036",
@@ -1126,7 +1175,10 @@
     "images": [
       "/products/bags/bc-lux-04.webp"
     ],
-    "featured": true
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
   },
   {
     "id": "p0049",
@@ -1174,7 +1226,11 @@
     "images": [
       "/products/bags/bc-xl-01.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0051",
@@ -1527,7 +1583,11 @@
     "images": [
       "/products/bags/bk25-009.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0066",
@@ -1667,7 +1727,10 @@
     "images": [
       "/products/bags/bp-4005.webp"
     ],
-    "featured": true
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
   },
   {
     "id": "p0072",
@@ -1881,7 +1944,11 @@
     "images": [
       "/products/bags/bxl25-4404.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0081",
@@ -2045,7 +2112,10 @@
     "images": [
       "/products/bags/l-kraft-001.webp"
     ],
-    "featured": true
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
   },
   {
     "id": "p0088",
@@ -2233,7 +2303,11 @@
     "images": [
       "/products/bags/l-305.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0096",
@@ -2588,7 +2662,11 @@
     "images": [
       "/products/bags/l25-318.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0111",
@@ -2944,7 +3022,11 @@
     "images": [
       "/products/bags/lp25-3011.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0126",
@@ -3296,7 +3378,12 @@
     "images": [
       "/products/bags/m-205.webp"
     ],
-    "featured": true
+    "featured": true,
+    "compareAtPrice": 100,
+    "tags": [
+      "popular",
+      "sale"
+    ]
   },
   {
     "id": "p0141",
@@ -3649,7 +3736,11 @@
     "images": [
       "/products/bags/ml-kraft25-003.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 130,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0156",
@@ -4002,7 +4093,12 @@
     "images": [
       "/products/bags/ms-602.webp"
     ],
-    "featured": true
+    "featured": true,
+    "compareAtPrice": 100,
+    "tags": [
+      "popular",
+      "sale"
+    ]
   },
   {
     "id": "p0171",
@@ -4354,7 +4450,11 @@
     "images": [
       "/products/bags/ms25-617.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 100,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0186",
@@ -4589,7 +4689,10 @@
     "images": [
       "/products/bags/q25-01.webp"
     ],
-    "featured": true
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
   },
   {
     "id": "p0196",
@@ -4705,7 +4808,11 @@
     "images": [
       "/products/bags/s25-103.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 100,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0201",
@@ -5007,7 +5114,10 @@
     "images": [
       "/products/bags/xl25-507.webp"
     ],
-    "featured": true
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
   },
   {
     "id": "p0214",
@@ -5054,7 +5164,11 @@
     "images": [
       "/products/bags/xl25-509.webp"
     ],
-    "featured": false
+    "featured": false,
+    "compareAtPrice": 200,
+    "tags": [
+      "sale"
+    ]
   },
   {
     "id": "p0216",
@@ -5241,7 +5355,10 @@
     "images": [
       "/products/placeholders/wrap.svg"
     ],
-    "featured": true
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
   },
   {
     "id": "p9002",

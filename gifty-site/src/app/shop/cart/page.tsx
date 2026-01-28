@@ -9,9 +9,12 @@ import { formatRUB } from "@/lib/utils";
 import { Button } from "@/components/Button";
 import { Input } from "@/components/Input";
 import { Badge } from "@/components/Badge";
+import { ProductCard } from "@/components/ProductCard";
+import { useI18n } from "@/providers/I18nProvider";
 
 export default function CartPage() {
-  const { items, removeItem, setQty, subtotalRetail, subtotalWholesale, total } = useCart();
+  const { items, removeItem, setQty, subtotalRetail, subtotalWholesale, total, favorites } = useCart();
+  const { t } = useI18n();
 
   const lines = useMemo(() => {
     return items
@@ -30,30 +33,43 @@ export default function CartPage() {
     }>;
   }, [items]);
 
+  const favProducts = useMemo(() => {
+    return favorites
+      .map((id) => getProductById(id))
+      .filter(Boolean)
+      .slice(0, 6) as any[];
+  }, [favorites]);
+
+  const empty = lines.length === 0;
+
   return (
     <div className="container py-10 md:py-14">
       <div className="flex items-end justify-between gap-6">
         <div>
           <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">
-            Корзина
+            {t("cart.title")}
           </h1>
           <p className="mt-3 text-sm text-zinc-600">
-            В корзине можно смешивать розничные и оптовые позиции.
+            {t("cart.desc")}
           </p>
         </div>
         <Link
           href="/shop/products"
           className="hidden text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4 md:inline"
         >
-          Продолжить покупки →
+          {t("actions.continueShopping")}
         </Link>
       </div>
 
       <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_360px]">
         <section className="grid gap-4">
-          {lines.length === 0 ? (
+          {empty ? (
             <div className="rounded-2xl border border-zinc-200 bg-white p-8 text-sm text-zinc-600">
-              Корзина пуста. <Link className="underline" href="/shop/products">Открыть каталог</Link>.
+              {t("cart.empty")}{" "}
+              <Link className="underline" href="/shop/products">
+                {t("actions.openCatalog")}
+              </Link>
+              .
             </div>
           ) : null}
 
@@ -63,23 +79,33 @@ export default function CartPage() {
               className="grid gap-4 rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm md:grid-cols-[110px_1fr_130px]"
             >
               <div className="relative aspect-square overflow-hidden rounded-xl bg-zinc-50">
-                <Image src={p.images?.[0] || "/products/placeholders/wrap.svg"} alt={p.title} fill className="object-contain p-3" />
+                <Image
+                  src={p.images?.[0] || "/products/placeholders/wrap.svg"}
+                  alt={p.title}
+                  fill
+                  className="object-contain p-3"
+                />
               </div>
 
               <div>
                 <div className="flex flex-wrap items-center gap-2">
-                  <Link href={`/shop/product/${p.slug}`} className="text-sm font-medium text-zinc-900 hover:underline">
+                  <Link
+                    href={`/shop/product/${p.slug}`}
+                    className="text-sm font-medium text-zinc-900 hover:underline"
+                  >
                     {p.title}
                   </Link>
-                  <Badge>{it.mode === "wholesale" ? "Опт" : "Розница"}</Badge>
+                  <Badge>{it.mode === "wholesale" ? t("cart.wholesale") : t("cart.retail")}</Badge>
                 </div>
 
                 <div className="mt-4 flex flex-wrap items-center gap-3">
                   <div className="text-sm text-zinc-700">
-                    Цена: <span className="font-semibold text-zinc-900">{formatRUB(price)}</span>
+                    {t("cart.price")}:{" "}
+                    <span className="font-semibold text-zinc-900">{formatRUB(price)}</span>
                   </div>
                   <div className="text-sm text-zinc-700">
-                    Сумма: <span className="font-semibold text-zinc-900">{formatRUB(sum)}</span>
+                    {t("cart.sum")}:{" "}
+                    <span className="font-semibold text-zinc-900">{formatRUB(sum)}</span>
                   </div>
                 </div>
               </div>
@@ -91,11 +117,8 @@ export default function CartPage() {
                   value={it.qty}
                   onChange={(e) => setQty(it.productId, it.mode, Number(e.target.value))}
                 />
-                <Button
-                  variant="ghost"
-                  onClick={() => removeItem(it.productId, it.mode)}
-                >
-                  Удалить
+                <Button variant="ghost" onClick={() => removeItem(it.productId, it.mode)}>
+                  {t("cart.remove")}
                 </Button>
               </div>
             </div>
@@ -103,44 +126,75 @@ export default function CartPage() {
         </section>
 
         <aside className="h-fit rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
-          <div className="text-lg font-semibold tracking-tight">Итого</div>
+          <div className="text-lg font-semibold tracking-tight">{t("cart.total")}</div>
 
           <div className="mt-4 grid gap-2 text-sm text-zinc-700">
             <div className="flex items-center justify-between">
-              <span>Розница</span>
+              <span>{t("cart.retail")}</span>
               <span className="font-semibold text-zinc-900">{formatRUB(subtotalRetail)}</span>
             </div>
             <div className="flex items-center justify-between">
-              <span>Опт</span>
+              <span>{t("cart.wholesale")}</span>
               <span className="font-semibold text-zinc-900">{formatRUB(subtotalWholesale)}</span>
             </div>
             <div className="my-2 h-px bg-zinc-200" />
             <div className="flex items-center justify-between text-base">
-              <span className="font-medium text-zinc-900">Всего</span>
+              <span className="font-medium text-zinc-900">{t("cart.grandTotal")}</span>
               <span className="font-semibold text-zinc-900">{formatRUB(total)}</span>
             </div>
           </div>
 
           <Link href="/shop/checkout">
-            <Button className="mt-6 w-full" disabled={lines.length === 0}>
-              Оформить заявку
+            <Button className="mt-6 w-full" disabled={empty}>
+              {t("actions.checkout")}
             </Button>
           </Link>
 
-          <p className="mt-4 text-xs text-zinc-500">
-            После отправки заявки мы свяжемся с вами, уточним детали и подтвердим наличие.
-          </p>
+          <Link href="/shop/quote">
+            <Button variant="secondary" className="mt-3 w-full" disabled={empty}>
+              {t("actions.openQuote")}
+            </Button>
+          </Link>
+          <p className="mt-2 text-xs text-zinc-500">{t("cart.quote.note")}</p>
+
+          <p className="mt-4 text-xs text-zinc-500">{t("cart.note")}</p>
 
           <div className="mt-6 md:hidden">
             <Link
               href="/shop/products"
               className="text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4"
             >
-              Продолжить покупки →
+              {t("actions.continueShopping")}
             </Link>
           </div>
         </aside>
       </div>
+
+      {/* Favorites preview (stored in the same provider as the cart) */}
+      {favProducts.length ? (
+        <section className="mt-14">
+          <div className="flex items-end justify-between gap-6">
+            <div>
+              <h2 className="text-xl font-semibold tracking-tight">{t("favorites.title")}</h2>
+              <p className="mt-2 text-sm text-zinc-600">
+                Товары, которые вы отметили сердечком — можно быстро добавить их в корзину.
+              </p>
+            </div>
+            <Link
+              href="/shop/favorites"
+              className="text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4"
+            >
+              {t("nav.favorites")} →
+            </Link>
+          </div>
+
+          <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+            {favProducts.map((p) => (
+              <ProductCard key={p.id} product={p} />
+            ))}
+          </div>
+        </section>
+      ) : null}
     </div>
   );
 }

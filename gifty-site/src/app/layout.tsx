@@ -3,6 +3,7 @@ import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CartProvider } from "@/providers/CartProvider";
+import { I18nProvider } from "@/providers/I18nProvider";
 
 const siteName = process.env.NEXT_PUBLIC_SITE_NAME || "GIFTY";
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL
@@ -15,12 +16,12 @@ export const metadata: Metadata = {
     template: `%s — ${siteName}`,
   },
   description:
-    "Подарочные пакеты, упаковка и открытки. Editorial‑витрина бренда + чистый e‑commerce + оптовый кабинет.",
+    "Минималистичная подарочная упаковка: пакеты, бумага, открытки и аксессуары. Розница и опт.",
   metadataBase: baseUrl,
   openGraph: {
     title: siteName,
     description:
-      "Подарочные пакеты, упаковка и открытки. Витрина бренда, магазин и опт.",
+      "Минималистичная подарочная упаковка: витрина бренда, магазин и оптовый кабинет.",
     type: "website",
     locale: "ru_RU",
     siteName,
@@ -38,11 +39,13 @@ export default function RootLayout({
   return (
     <html lang="ru" suppressHydrationWarning>
       <body>
-        <CartProvider>
-          <Header />
-          <main className="min-h-[70vh]">{children}</main>
-          <Footer />
-        </CartProvider>
+        <I18nProvider>
+          <CartProvider>
+            <Header />
+            <main className="min-h-[70vh]">{children}</main>
+            <Footer />
+          </CartProvider>
+        </I18nProvider>
       </body>
     </html>
   );

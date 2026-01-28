@@ -7,6 +7,7 @@ import { getProductById } from "@/lib/products";
 import { formatRUB } from "@/lib/utils";
 import { Input } from "@/components/Input";
 import { Button } from "@/components/Button";
+import { useI18n } from "@/providers/I18nProvider";
 
 type OrderLine = {
   productId: string;
@@ -19,6 +20,7 @@ type OrderLine = {
 
 export default function CheckoutPage() {
   const { items, total, clear } = useCart();
+  const { t } = useI18n();
 
   const [sent, setSent] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -88,23 +90,21 @@ export default function CheckoutPage() {
       <div className="container py-12 md:py-16">
         <div className="max-w-2xl rounded-3xl border border-emerald-200 bg-emerald-50 p-10">
           <h1 className="text-2xl font-semibold tracking-tight text-emerald-950">
-            Спасибо — заявка отправлена
+            {t("checkout.sent.title")}
           </h1>
-          <p className="mt-3 text-sm text-emerald-900">
-            Мы получили заявку и свяжемся с вами, чтобы подтвердить наличие, оплату и доставку.
-          </p>
+          <p className="mt-3 text-sm text-emerald-900">{t("checkout.sent.desc")}</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
               href="/shop/products"
               className="rounded-xl bg-emerald-950 px-5 py-3 text-sm font-medium text-white hover:bg-emerald-900"
             >
-              Вернуться в каталог
+              {t("checkout.backToCatalog")}
             </Link>
             <Link
               href="/"
               className="rounded-xl border border-emerald-300 bg-white px-5 py-3 text-sm font-medium text-emerald-950 hover:bg-emerald-100/30"
             >
-              На главную
+              {t("checkout.home")}
             </Link>
           </div>
         </div>
@@ -116,11 +116,9 @@ export default function CheckoutPage() {
     <div className="container py-10 md:py-14">
       <div className="max-w-3xl">
         <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">
-          Оформление заявки
+          {t("checkout.title")}
         </h1>
-        <p className="mt-4 text-sm text-zinc-600">
-          Оставьте контакты — мы уточним детали и подтвердим заказ.
-        </p>
+        <p className="mt-4 text-sm text-zinc-600">{t("checkout.desc")}</p>
       </div>
 
       <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_360px]">
@@ -129,42 +127,35 @@ export default function CheckoutPage() {
           onSubmit={async (e) => {
             e.preventDefault();
             if (lines.length === 0) {
-              setError("Корзина пуста.");
+              setError(t("cart.empty"));
               return;
             }
             await submit();
           }}
         >
-          <h2 className="text-lg font-semibold tracking-tight">Контакты</h2>
-
-          <div className="mt-5 grid gap-3">
-            <Input
-              required
-              placeholder="Имя"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
+          <div className="grid gap-3">
+            <Input required placeholder={t("checkout.name")} value={name} onChange={(e) => setName(e.target.value)} />
             <Input
               required
               type="email"
-              placeholder="Email"
+              placeholder={t("checkout.email")}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
             <Input
-              placeholder="Телефон"
+              required
+              placeholder={t("checkout.phone")}
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
             />
             <textarea
-              placeholder="Комментарий (например: адрес доставки, реквизиты для опта)"
+              placeholder={t("checkout.comment")}
               value={comment}
               onChange={(e) => setComment(e.target.value)}
-              className="min-h-[120px] w-full rounded-xl border border-zinc-300 bg-white px-3 py-3 text-sm outline-none ring-offset-2 placeholder:text-zinc-400 focus:ring-2 focus:ring-zinc-900/15"
+              className="min-h-[140px] w-full rounded-xl border border-zinc-300 bg-white px-3 py-3 text-sm outline-none ring-offset-2 placeholder:text-zinc-400 focus:ring-2 focus:ring-zinc-900/15"
             />
-
-            <Button type="submit" disabled={loading || lines.length === 0}>
-              {loading ? "Отправляем…" : "Отправить заявку"}
+            <Button type="submit" disabled={loading}>
+              {loading ? t("checkout.sending") : t("checkout.submit")}
             </Button>
 
             {error ? (
@@ -172,49 +163,38 @@ export default function CheckoutPage() {
                 {error}
               </div>
             ) : null}
-
-            <p className="text-xs text-zinc-500">
-              Нажимая «Отправить заявку», вы соглашаетесь на обработку данных для связи по заказу.
-            </p>
           </div>
         </form>
 
         <aside className="h-fit rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
-          <div className="text-lg font-semibold tracking-tight">Состав</div>
+          <div className="text-lg font-semibold tracking-tight">{t("cart.total")}</div>
 
           <div className="mt-4 grid gap-3 text-sm text-zinc-700">
-            {lines.length === 0 ? (
-              <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
-                Корзина пуста.
-              </div>
-            ) : null}
-
-            {lines.map((l, idx) => (
-              <div key={idx} className="rounded-2xl border border-zinc-200 bg-zinc-50 p-4">
-                <div className="font-medium text-zinc-900">{l.title}</div>
-                <div className="mt-1 text-xs text-zinc-500">
-                  {l.mode === "wholesale" ? "Опт" : "Розница"} • Qty {l.qty}
+            {lines.map((l) => (
+              <div key={`${l.productId}:${l.mode}`} className="flex items-start justify-between gap-3">
+                <div className="min-w-0">
+                  <div className="line-clamp-2 text-sm font-medium text-zinc-900">{l.title}</div>
+                  <div className="mt-1 text-xs text-zinc-500">
+                    {l.mode === "wholesale" ? t("cart.wholesale") : t("cart.retail")} • {l.qty} × {formatRUB(l.price)}
+                  </div>
                 </div>
-                <div className="mt-2 flex items-center justify-between">
-                  <span>{formatRUB(l.price)} × {l.qty}</span>
-                  <span className="font-semibold">{formatRUB(l.sum)}</span>
-                </div>
+                <div className="shrink-0 font-medium text-zinc-900">{formatRUB(l.sum)}</div>
               </div>
             ))}
 
-            <div className="my-1 h-px bg-zinc-200" />
+            <div className="my-2 h-px bg-zinc-200" />
             <div className="flex items-center justify-between text-base">
-              <span className="font-medium text-zinc-900">Итого</span>
+              <span className="font-medium text-zinc-900">{t("cart.grandTotal")}</span>
               <span className="font-semibold text-zinc-900">{formatRUB(total)}</span>
             </div>
-          </div>
 
-          <Link
-            href="/shop/cart"
-            className="mt-6 inline-block text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4"
-          >
-            ← Вернуться в корзину
-          </Link>
+            <Link
+              href="/shop/cart"
+              className="mt-2 text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4"
+            >
+              ← {t("cart.title")}
+            </Link>
+          </div>
         </aside>
       </div>
     </div>

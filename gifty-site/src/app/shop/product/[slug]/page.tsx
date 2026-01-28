@@ -1,109 +1,132 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import type { Metadata } from "next";
-import { getProductBySlug } from "@/lib/products";
+import { products } from "@/lib/products";
 import { Badge } from "@/components/Badge";
-import { Price } from "@/components/Price";
 import { AddToCartPanel } from "./AddToCartPanel";
+import { Price } from "@/components/Price";
+import { getDiscountPercent, isNewProduct, isPopularProduct, isSaleProduct } from "@/lib/products";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}): Promise<Metadata> {
-  const product = getProductBySlug(params.slug);
-  if (!product) return {};
-  return {
-    title: product.title,
-    description: `${product.type} • ${product.material} • ${product.size}`,
-    openGraph: {
-      title: product.title,
-      description: `${product.type} • ${product.material} • ${product.size}`,
-      images: product.images?.[0] ? [product.images[0]] : [],
-    },
-  };
+export async function generateStaticParams() {
+  return products.map((p) => ({ slug: p.slug }));
 }
 
 export default function ProductPage({ params }: { params: { slug: string } }) {
-  const product = getProductBySlug(params.slug);
+  const product = products.find((p) => p.slug === params.slug);
   if (!product) return notFound();
+
+  const hasCompare =
+    typeof product.compareAtPrice === "number" && product.compareAtPrice > product.retailPrice;
+  const discount = hasCompare ? getDiscountPercent(product) : 0;
 
   return (
     <div className="container py-10 md:py-14">
       <Link
         href="/shop/products"
-        className="text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4"
+        className="text-sm font-medium text-zinc-700 hover:text-zinc-900"
       >
         ← Назад в каталог
       </Link>
 
-      <div className="mt-8 grid gap-10 lg:grid-cols-2 lg:items-start">
+      <div className="mt-8 grid gap-10 lg:grid-cols-2">
         <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
-          <div className="relative aspect-square">
+          <div className="relative aspect-square overflow-hidden rounded-2xl bg-zinc-50">
             <Image
               src={product.images?.[0] || "/products/placeholders/wrap.svg"}
               alt={product.title}
               fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-contain p-6"
-              priority
+              className="object-contain p-8"
             />
           </div>
 
-          <div className="mt-5 flex flex-wrap gap-2">
-            <Badge>{product.type}</Badge>
-            <Badge>{product.material}</Badge>
-            <Badge>{product.color}</Badge>
-            <Badge>{product.size}</Badge>
+          <div className="mt-6 grid gap-3 md:grid-cols-3">
+            {(product.images || []).slice(0, 3).map((src) => (
+              <div
+                key={src}
+                className="relative aspect-square overflow-hidden rounded-2xl border border-zinc-200 bg-zinc-50"
+              >
+                <Image src={src} alt={product.title} fill className="object-contain p-6" />
+              </div>
+            ))}
           </div>
         </div>
 
-        <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm">
-          <div className="flex items-start justify-between gap-4">
-            <h1 className="text-2xl font-semibold tracking-tight md:text-3xl">
-              {product.title}
-            </h1>
+        <div>
+          <div className="flex flex-wrap items-center gap-2">
+            <Badge className="bg-white border-zinc-300">{product.type}</Badge>
             {product.featured ? <Badge>Витрина</Badge> : null}
+            {isNewProduct(product) ? <Badge>Новинка</Badge> : null}
+            {isPopularProduct(product) && !product.featured ? <Badge>Популярное</Badge> : null}
+            {isSaleProduct(product) || hasCompare ? (
+              <Badge className="border-amber-200 bg-amber-50 text-amber-900">
+                Скидка{discount ? ` −${discount}%` : ""}
+              </Badge>
+            ) : null}
           </div>
 
-          <p className="mt-4 text-sm text-zinc-600">
-            Аккуратный вариант для подарков и наборов: {product.type.toLowerCase()} из материала «{product.material}».
-            Цвет: <span className="text-zinc-900">{product.color}</span>, размер: <span className="text-zinc-900">{product.size}</span>.
-          </p>
+          <h1 className="mt-4 text-3xl font-semibold tracking-tight md:text-4xl">
+            {product.title}
+          </h1>
 
-          <p className="mt-2 text-sm text-zinc-600">
-            Коллекция: <span className="text-zinc-900">{product.collection}</span>
-          </p>
-
-          <div className="mt-6 grid gap-2 text-sm text-zinc-700">
-            <div className="flex items-center justify-between">
-              <span>Розничная цена</span>
-              <span className="font-semibold text-zinc-900">
+          <div className="mt-6 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
+            <div className="text-sm font-medium text-zinc-900">Цена</div>
+            <div className="mt-2 flex flex-wrap items-end gap-x-3 gap-y-1">
+              <div className="text-2xl font-semibold text-zinc-900">
                 <Price amount={product.retailPrice} />
-              </span>
+              </div>
+              {hasCompare ? (
+                <div className="text-sm text-zinc-500 line-through">
+                  <Price amount={product.compareAtPrice as number} />
+                </div>
+              ) : null}
             </div>
-            <div className="flex items-center justify-between">
-              <span>Оптовая цена</span>
-              <span className="font-semibold text-zinc-900">
-                <Price amount={product.wholesalePrice} />
-              </span>
+            <div className="mt-3 text-sm text-zinc-600">
+              Опт: <span className="font-medium text-zinc-900"><Price amount={product.wholesalePrice} /></span>
+              {" "}• MOQ {product.moq} • кратность {product.packSize}
+            </div>
+
+            <AddToCartPanel productId={product.id} packSize={product.packSize} />
+          </div>
+
+          <div className="mt-8 grid gap-6 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
+            <div>
+              <div className="text-sm font-medium text-zinc-900">Описание</div>
+              <p className="mt-2 text-sm text-zinc-600">
+                Минималистичная подарочная упаковка: плотный материал, аккуратная сборка,
+                нейтральные оттенки. Подходит для розницы и корпоративных заказов.
+              </p>
+            </div>
+
+            <div className="grid gap-3 text-sm text-zinc-700">
+              <div className="flex items-center justify-between">
+                <span className="text-zinc-500">Материал</span>
+                <span className="font-medium text-zinc-900">{product.material}</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-zinc-500">Цвет</span>
+                <span className="font-medium text-zinc-900">{product.color}</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-zinc-500">Размер</span>
+                <span className="font-medium text-zinc-900">{product.size}</span>
+              </div>
+              <div className="flex items-center justify-between">
+                <span className="text-zinc-500">Коллекция</span>
+                <span className="font-medium text-zinc-900">{product.collection}</span>
+              </div>
+              <div className="flex items-start justify-between gap-4">
+                <span className="text-zinc-500">Повод</span>
+                <span className="text-right font-medium text-zinc-900">
+                  {(product.occasion || []).join(", ")}
+                </span>
+              </div>
             </div>
           </div>
 
-          <div className="mt-6 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-700">
-            <div className="font-medium text-zinc-900">Оптовые правила</div>
-            <div className="mt-2 grid gap-1">
-              <div>MOQ: {product.moq} шт.</div>
-              <div>Кратность: {product.packSize} шт.</div>
-            </div>
+          <div className="mt-6 text-xs text-zinc-500">
+            Нужны особые условия (брендирование, индивидуальные размеры, крупный тираж)?
+            Напишите — подготовим предложение.
           </div>
-
-          <AddToCartPanel productId={product.id} packSize={product.packSize} />
-
-          <p className="mt-6 text-xs text-zinc-500">
-            Если нужно подобрать размер или собрать набор под ваш ассортимент — напишите нам, поможем.
-          </p>
         </div>
       </div>
     </div>

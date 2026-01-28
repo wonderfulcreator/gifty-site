@@ -2,14 +2,16 @@
 
 import { useMemo, useState } from "react";
 import type { Product } from "@/lib/types";
-import { getFilterOptions } from "@/lib/products";
+import { getFilterOptions, isNewProduct, isPopularProduct, isSaleProduct } from "@/lib/products";
 import { Input } from "@/components/Input";
 import { Filters, type SelectedFilters } from "@/components/Filters";
 import { ProductCard } from "@/components/ProductCard";
 import Link from "next/link";
 import { Badge } from "@/components/Badge";
+import { useI18n } from "@/providers/I18nProvider";
 
 const emptySelected: SelectedFilters = {
+  picks: [],
   types: [],
   colors: [],
   materials: [],
@@ -19,6 +21,7 @@ const emptySelected: SelectedFilters = {
 };
 
 export function WholesaleCatalogClient({ products }: { products: Product[] }) {
+  const { t } = useI18n();
   const options = useMemo(() => getFilterOptions(products), [products]);
 
   const [query, setQuery] = useState("");
@@ -29,6 +32,11 @@ export function WholesaleCatalogClient({ products }: { products: Product[] }) {
     const q = query.trim().toLowerCase();
     return products.filter((p) => {
       if (inStockOnly && !p.inStock) return false;
+
+      // editorial picks
+      if (selected.picks.includes("new") && !isNewProduct(p)) return false;
+      if (selected.picks.includes("popular") && !isPopularProduct(p)) return false;
+      if (selected.picks.includes("sale") && !isSaleProduct(p)) return false;
 
       const matchMulti = (arr: string[], value: string) =>
         arr.length === 0 ? true : arr.includes(value);
@@ -58,11 +66,10 @@ export function WholesaleCatalogClient({ products }: { products: Product[] }) {
         <div className="max-w-3xl">
           <Badge className="border-zinc-300 bg-white">B2B</Badge>
           <h1 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-            Оптовый каталог
+            {t("nav.wholesale")} • {t("shop.catalog.title")}
           </h1>
           <p className="mt-4 text-sm text-zinc-600">
-            То же, что и розничный каталог, но показываем оптовые цены, MOQ и
-            кратность. Для заказа большими партиями используйте «Быстрый заказ».
+            {t("cart.wholesale")}: MOQ, кратность и оптовые цены. Для быстрых закупок используйте «Быстрый заказ».
           </p>
         </div>
 
@@ -71,13 +78,13 @@ export function WholesaleCatalogClient({ products }: { products: Product[] }) {
             href="/wholesale/quick-order"
             className="rounded-xl bg-zinc-900 px-5 py-3 text-sm font-medium text-white hover:bg-zinc-800"
           >
-            Быстрый заказ
+            {t("actions.quickOrder")}
           </Link>
           <Link
             href="/wholesale"
             className="rounded-xl border border-zinc-300 bg-white px-5 py-3 text-sm font-medium text-zinc-900 hover:bg-zinc-50"
           >
-            В кабинет
+            {t("nav.wholesale")}
           </Link>
         </div>
       </div>
@@ -85,16 +92,16 @@ export function WholesaleCatalogClient({ products }: { products: Product[] }) {
       <div className="mt-8 grid gap-8 lg:grid-cols-[280px_1fr]">
         <aside className="space-y-4">
           <div className="rounded-xl border border-zinc-200 bg-white p-4">
-            <div className="text-sm font-medium text-zinc-900">Поиск</div>
+            <div className="text-sm font-medium text-zinc-900">{t("common.search")}</div>
             <div className="mt-3">
               <Input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Название, коллекция…"
+                placeholder={t("filters.searchPlaceholder")}
               />
             </div>
             <div className="mt-3 text-xs text-zinc-500">
-              Найдено: <span className="font-medium text-zinc-700">{filtered.length}</span>
+              {t("common.found")}: <span className="font-medium text-zinc-700">{filtered.length}</span>
             </div>
           </div>
 
@@ -133,7 +140,7 @@ export function WholesaleCatalogClient({ products }: { products: Product[] }) {
 
           {filtered.length === 0 ? (
             <div className="mt-10 rounded-2xl border border-zinc-200 bg-white p-8 text-sm text-zinc-600">
-              Ничего не найдено. Попробуйте снять часть фильтров.
+              {t("shop.catalog.empty")}
             </div>
           ) : null}
         </section>

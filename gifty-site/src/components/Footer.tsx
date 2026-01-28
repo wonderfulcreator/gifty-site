@@ -1,4 +1,7 @@
+'use client';
+
 import Link from "next/link";
+import { useI18n } from "@/providers/I18nProvider";
 
 const OZON = process.env.NEXT_PUBLIC_OZON_URL;
 const WB = process.env.NEXT_PUBLIC_WB_URL;
@@ -9,14 +12,15 @@ const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "gifty@shopify.co
 const CONTACT_PHONE = process.env.NEXT_PUBLIC_CONTACT_PHONE || "+79837221794";
 
 export function Footer() {
+  const { t } = useI18n();
+
   return (
     <footer className="mt-20 border-t border-zinc-200/70">
       <div className="container grid gap-10 py-12 md:grid-cols-3">
         <div>
           <div className="text-sm font-semibold tracking-wide">GIFTY</div>
           <p className="mt-2 max-w-sm text-sm text-zinc-600">
-            Минималистичная подарочная упаковка: пакеты, бумага, открытки и аксессуары.
-            Розница и опт.
+            {t("brand.tagline")}. {t("nav.shop")} • {t("nav.wholesale")}.
           </p>
           <p className="mt-4 text-xs text-zinc-500">
             © {new Date().getFullYear()} GIFTY.
@@ -25,24 +29,24 @@ export function Footer() {
 
         <div className="grid gap-2 text-sm">
           <Link className="text-zinc-700 hover:text-zinc-900" href="/shop/products">
-            Магазин
+            {t("nav.shop")}
           </Link>
           <Link className="text-zinc-700 hover:text-zinc-900" href="/wholesale">
-            Опт
+            {t("nav.wholesale")}
           </Link>
           <Link className="text-zinc-700 hover:text-zinc-900" href="/blog">
-            Блог
+            {t("nav.blog")}
           </Link>
           <Link className="text-zinc-700 hover:text-zinc-900" href="/partners">
-            Партнёры
+            {t("nav.partners")}
           </Link>
           <Link className="text-zinc-700 hover:text-zinc-900" href="/contact">
-            Контакты
+            {t("nav.contact")}
           </Link>
         </div>
 
         <div>
-          <div className="text-sm font-medium text-zinc-900">Ссылки</div>
+          <div className="text-sm font-medium text-zinc-900">Links</div>
           <div className="mt-3 flex flex-wrap gap-2">
             {OZON ? (
               <a
@@ -97,7 +101,7 @@ export function Footer() {
           </div>
 
           <p className="mt-4 text-xs text-zinc-500">
-            Для связи: {CONTACT_EMAIL} • {CONTACT_PHONE}
+            {CONTACT_EMAIL} • {CONTACT_PHONE}
           </p>
         </div>
       </div>
