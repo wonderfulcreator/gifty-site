@@ -1,0 +1,5411 @@
+[
+  {
+    "id": "p0001",
+    "slug": "b-kraft-001",
+    "title": "Подарочный пакет B KRAFT-001",
+    "sku": "B KRAFT-001",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-kraft-001.webp"
+    ],
+    "featured": false,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": "p0002",
+    "slug": "b-kraft-002",
+    "title": "Подарочный пакет B KRAFT-002",
+    "sku": "B KRAFT-002",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-kraft-002.webp"
+    ],
+    "featured": false,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": "p0003",
+    "slug": "b-kraft-003",
+    "title": "Подарочный пакет B KRAFT-003",
+    "sku": "B KRAFT-003",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-kraft-003.webp"
+    ],
+    "featured": false,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": "p0004",
+    "slug": "b-kraft-004",
+    "title": "Подарочный пакет B KRAFT-004",
+    "sku": "B KRAFT-004",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-kraft-004.webp"
+    ],
+    "featured": false,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": "p0005",
+    "slug": "b-xl-4401",
+    "title": "Подарочный пакет B XL-4401",
+    "sku": "B XL-4401",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-xl-4401.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "new",
+      "sale"
+    ]
+  },
+  {
+    "id": "p0006",
+    "slug": "b-xl-4402",
+    "title": "Подарочный пакет B XL-4402",
+    "sku": "B XL-4402",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Зелёный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-xl-4402.webp"
+    ],
+    "featured": false,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": "p0007",
+    "slug": "b-xl-4403",
+    "title": "Подарочный пакет B XL-4403",
+    "sku": "B XL-4403",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-xl-4403.webp"
+    ],
+    "featured": false,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": "p0008",
+    "slug": "b-xl-4404",
+    "title": "Подарочный пакет B XL-4404",
+    "sku": "B XL-4404",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-xl-4404.webp"
+    ],
+    "featured": false,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": "p0009",
+    "slug": "b-xl-4405",
+    "title": "Подарочный пакет B XL-4405",
+    "sku": "B XL-4405",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Серый",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Премиум",
+      "Универсальный"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-xl-4405.webp"
+    ],
+    "featured": false,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": "p0010",
+    "slug": "b-xl25-4406",
+    "title": "Подарочный пакет B XL25-4406",
+    "sku": "B XL25-4406",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-xl25-4406.webp"
+    ],
+    "featured": false,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": "p0011",
+    "slug": "b-xl25-4407",
+    "title": "Подарочный пакет B XL25-4407",
+    "sku": "B XL25-4407",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-xl25-4407.webp"
+    ],
+    "featured": false,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": "p0012",
+    "slug": "b-xl25-4408",
+    "title": "Подарочный пакет B XL25-4408",
+    "sku": "B XL25-4408",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-xl25-4408.webp"
+    ],
+    "featured": false,
+    "tags": [
+      "new"
+    ]
+  },
+  {
+    "id": "p0013",
+    "slug": "b-xl25-4409",
+    "title": "Подарочный пакет B XL25-4409",
+    "sku": "B XL25-4409",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-xl25-4409.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0014",
+    "slug": "b-xl25-4410",
+    "title": "Подарочный пакет B XL25-4410",
+    "sku": "B XL25-4410",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-xl25-4410.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0015",
+    "slug": "b-401",
+    "title": "Подарочный пакет B-401",
+    "sku": "B-401",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×78 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-401.webp"
+    ],
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
+  },
+  {
+    "id": "p0016",
+    "slug": "b-402",
+    "title": "Подарочный пакет B-402",
+    "sku": "B-402",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Зелёный",
+    "size": "123×362×78 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-402.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0017",
+    "slug": "b-403",
+    "title": "Подарочный пакет B-403",
+    "sku": "B-403",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Зелёный",
+    "size": "123×362×78 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-403.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0018",
+    "slug": "b-404",
+    "title": "Подарочный пакет B-404",
+    "sku": "B-404",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×78 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-404.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0019",
+    "slug": "b-405",
+    "title": "Подарочный пакет B-405",
+    "sku": "B-405",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "123×362×78 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-405.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0020",
+    "slug": "b-406",
+    "title": "Подарочный пакет B-406",
+    "sku": "B-406",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "123×362×78 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-406.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0021",
+    "slug": "b-407",
+    "title": "Подарочный пакет B-407",
+    "sku": "B-407",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×78 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-407.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0022",
+    "slug": "b-408",
+    "title": "Подарочный пакет B-408",
+    "sku": "B-408",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "123×362×78 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-408.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0023",
+    "slug": "b-409",
+    "title": "Подарочный пакет B-409",
+    "sku": "B-409",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "123×362×78 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-409.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0024",
+    "slug": "b-410",
+    "title": "Подарочный пакет B-410",
+    "sku": "B-410",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "123×362×78 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b-410.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0025",
+    "slug": "b25-005",
+    "title": "Подарочный пакет B25-005",
+    "sku": "B25-005",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-005.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0026",
+    "slug": "b25-006",
+    "title": "Подарочный пакет B25-006",
+    "sku": "B25-006",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Жёлтый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-006.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0027",
+    "slug": "b25-007",
+    "title": "Подарочный пакет B25-007",
+    "sku": "B25-007",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-007.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0028",
+    "slug": "b25-008",
+    "title": "Подарочный пакет B25-008",
+    "sku": "B25-008",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-008.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0029",
+    "slug": "b25-411",
+    "title": "Подарочный пакет B25-411",
+    "sku": "B25-411",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-411.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0030",
+    "slug": "b25-412",
+    "title": "Подарочный пакет B25-412",
+    "sku": "B25-412",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-412.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0031",
+    "slug": "b25-413",
+    "title": "Подарочный пакет B25-413",
+    "sku": "B25-413",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-413.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0032",
+    "slug": "b25-414",
+    "title": "Подарочный пакет B25-414",
+    "sku": "B25-414",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-414.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0033",
+    "slug": "b25-415",
+    "title": "Подарочный пакет B25-415",
+    "sku": "B25-415",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-415.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0034",
+    "slug": "b25-416",
+    "title": "Подарочный пакет B25-416",
+    "sku": "B25-416",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-416.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0035",
+    "slug": "b25-417",
+    "title": "Подарочный пакет B25-417",
+    "sku": "B25-417",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-417.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0036",
+    "slug": "b25-418",
+    "title": "Подарочный пакет B25-418",
+    "sku": "B25-418",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-418.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0037",
+    "slug": "b25-419",
+    "title": "Подарочный пакет B25-419",
+    "sku": "B25-419",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-419.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0038",
+    "slug": "b25-420",
+    "title": "Подарочный пакет B25-420",
+    "sku": "B25-420",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-420.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0039",
+    "slug": "b25-421",
+    "title": "Подарочный пакет B25-421",
+    "sku": "B25-421",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-421.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0040",
+    "slug": "b25-422",
+    "title": "Подарочный пакет B25-422",
+    "sku": "B25-422",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-422.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0041",
+    "slug": "b25-423",
+    "title": "Подарочный пакет B25-423",
+    "sku": "B25-423",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Зелёный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-423.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0042",
+    "slug": "b25-424",
+    "title": "Подарочный пакет B25-424",
+    "sku": "B25-424",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-424.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0043",
+    "slug": "b25-425",
+    "title": "Подарочный пакет B25-425",
+    "sku": "B25-425",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/b25-425.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0044",
+    "slug": "bc-lux-01",
+    "title": "Подарочный пакет BC LUX-01",
+    "sku": "BC LUX-01",
+    "type": "Пакеты",
+    "material": "Люкс",
+    "color": "Бирюзовый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "BC LUX",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-lux-01.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0045",
+    "slug": "bc-lux-01-05",
+    "title": "Подарочный пакет BC LUX-01-05",
+    "sku": "BC LUX-01-05",
+    "type": "Пакеты",
+    "material": "Люкс",
+    "color": "Зелёный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "BC LUX",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-lux-01-05.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0046",
+    "slug": "bc-lux-02",
+    "title": "Подарочный пакет BC LUX-02",
+    "sku": "BC LUX-02",
+    "type": "Пакеты",
+    "material": "Люкс",
+    "color": "Зелёный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "BC LUX",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-lux-02.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0047",
+    "slug": "bc-lux-03",
+    "title": "Подарочный пакет BC LUX-03",
+    "sku": "BC LUX-03",
+    "type": "Пакеты",
+    "material": "Люкс",
+    "color": "Жёлтый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "BC LUX",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-lux-03.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0048",
+    "slug": "bc-lux-04",
+    "title": "Подарочный пакет BC LUX-04",
+    "sku": "BC LUX-04",
+    "type": "Пакеты",
+    "material": "Люкс",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "BC LUX",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-lux-04.webp"
+    ],
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
+  },
+  {
+    "id": "p0049",
+    "slug": "bc-lux-05",
+    "title": "Подарочный пакет BC LUX-05",
+    "sku": "BC LUX-05",
+    "type": "Пакеты",
+    "material": "Люкс",
+    "color": "Розовый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "BC LUX",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-lux-05.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0050",
+    "slug": "bc-xl-01",
+    "title": "Подарочный пакет BC XL-01",
+    "sku": "BC XL-01",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl-01.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0051",
+    "slug": "bc-xl-01-05",
+    "title": "Подарочный пакет BC XL-01-05",
+    "sku": "BC XL-01-05",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl-01-05.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0052",
+    "slug": "bc-xl-02",
+    "title": "Подарочный пакет BC XL-02",
+    "sku": "BC XL-02",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl-02.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0053",
+    "slug": "bc-xl-03",
+    "title": "Подарочный пакет BC XL-03",
+    "sku": "BC XL-03",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl-03.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0054",
+    "slug": "bc-xl-04",
+    "title": "Подарочный пакет BC XL-04",
+    "sku": "BC XL-04",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Фиолетовый",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl-04.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0055",
+    "slug": "bc-xl-05",
+    "title": "Подарочный пакет BC XL-05",
+    "sku": "BC XL-05",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl-05.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0056",
+    "slug": "bc-xl25-06",
+    "title": "Подарочный пакет BC XL25-06",
+    "sku": "BC XL25-06",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Зелёный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl25-06.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0057",
+    "slug": "bc-xl25-06-10",
+    "title": "Подарочный пакет BC XL25-06-10",
+    "sku": "BC XL25-06-10",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl25-06-10.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0058",
+    "slug": "bc-xl25-07",
+    "title": "Подарочный пакет BC XL25-07",
+    "sku": "BC XL25-07",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl25-07.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0059",
+    "slug": "bc-xl25-08",
+    "title": "Подарочный пакет BC XL25-08",
+    "sku": "BC XL25-08",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl25-08.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0060",
+    "slug": "bc-xl25-09",
+    "title": "Подарочный пакет BC XL25-09",
+    "sku": "BC XL25-09",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl25-09.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0061",
+    "slug": "bc-xl25-10",
+    "title": "Подарочный пакет BC XL25-10",
+    "sku": "BC XL25-10",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "BC XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bc-xl25-10.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0062",
+    "slug": "bcxl-25-06",
+    "title": "Подарочный пакет BCXL 25-06",
+    "sku": "BCXL 25-06",
+    "type": "Пакеты",
+    "material": "Люкс",
+    "color": "Жёлтый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "BC LUX",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bcxl-25-06.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0063",
+    "slug": "bcxl-25-06-07",
+    "title": "Подарочный пакет BCXL 25-06+07 _",
+    "sku": "BCXL 25-06+07 _",
+    "type": "Пакеты",
+    "material": "Люкс",
+    "color": "Красный",
+    "size": "1123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "BC LUX",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bcxl-25-06-07.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0064",
+    "slug": "bcxl-25-07",
+    "title": "Подарочный пакет BCXL 25-07",
+    "sku": "BCXL 25-07",
+    "type": "Пакеты",
+    "material": "Люкс",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "BC LUX",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bcxl-25-07.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0065",
+    "slug": "bk25-009",
+    "title": "Подарочный пакет BK25-009",
+    "sku": "BK25-009",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bk25-009.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0066",
+    "slug": "bk25-010",
+    "title": "Подарочный пакет BK25-010",
+    "sku": "BK25-010",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bk25-010.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0067",
+    "slug": "bp-4001",
+    "title": "Подарочный пакет BP-4001",
+    "sku": "BP-4001",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Зелёный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "BP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bp-4001.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0068",
+    "slug": "bp-4002",
+    "title": "Подарочный пакет BP-4002",
+    "sku": "BP-4002",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "BP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bp-4002.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0069",
+    "slug": "bp-4003",
+    "title": "Подарочный пакет BP-4003",
+    "sku": "BP-4003",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Фиолетовый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "BP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bp-4003.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0070",
+    "slug": "bp-4004",
+    "title": "Подарочный пакет BP-4004",
+    "sku": "BP-4004",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "BP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bp-4004.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0071",
+    "slug": "bp-4005",
+    "title": "Подарочный пакет BP-4005",
+    "sku": "BP-4005",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "BP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bp-4005.webp"
+    ],
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
+  },
+  {
+    "id": "p0072",
+    "slug": "bp25-4006",
+    "title": "Подарочный пакет BP25-4006",
+    "sku": "BP25-4006",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "BP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bp25-4006.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0073",
+    "slug": "bp25-4007",
+    "title": "Подарочный пакет BP25-4007",
+    "sku": "BP25-4007",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "BP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bp25-4007.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0074",
+    "slug": "bp25-4008",
+    "title": "Подарочный пакет BP25-4008",
+    "sku": "BP25-4008",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "BP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bp25-4008.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0075",
+    "slug": "bp25-4009",
+    "title": "Подарочный пакет BP25-4009",
+    "sku": "BP25-4009",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "BP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bp25-4009.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0076",
+    "slug": "bp25-4010",
+    "title": "Подарочный пакет BP25-4010",
+    "sku": "BP25-4010",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "123×362×100 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "BP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bp25-4010.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0077",
+    "slug": "bxl25-4401",
+    "title": "Подарочный пакет BXL25-4401",
+    "sku": "BXL25-4401",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bxl25-4401.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0078",
+    "slug": "bxl25-4402",
+    "title": "Подарочный пакет BXL25-4402",
+    "sku": "BXL25-4402",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Зелёный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bxl25-4402.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0079",
+    "slug": "bxl25-4403",
+    "title": "Подарочный пакет BXL25-4403",
+    "sku": "BXL25-4403",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bxl25-4403.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0080",
+    "slug": "bxl25-4404",
+    "title": "Подарочный пакет BXL25-4404",
+    "sku": "BXL25-4404",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bxl25-4404.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0081",
+    "slug": "bxl25-4405",
+    "title": "Подарочный пакет BXL25-4405",
+    "sku": "BXL25-4405",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bxl25-4405.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0082",
+    "slug": "bxl25-4411",
+    "title": "Подарочный пакет BXL25-4411",
+    "sku": "BXL25-4411",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bxl25-4411.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0083",
+    "slug": "bxl25-4412",
+    "title": "Подарочный пакет BXL25-4412",
+    "sku": "BXL25-4412",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bxl25-4412.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0084",
+    "slug": "bxl25-4413",
+    "title": "Подарочный пакет BXL25-4413",
+    "sku": "BXL25-4413",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bxl25-4413.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0085",
+    "slug": "bxl25-4414",
+    "title": "Подарочный пакет BXL25-4414",
+    "sku": "BXL25-4414",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bxl25-4414.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0086",
+    "slug": "bxl25-4415",
+    "title": "Подарочный пакет BXL25-4415",
+    "sku": "BXL25-4415",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "150×360×120 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "B XL",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/bxl25-4415.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0087",
+    "slug": "l-kraft-001",
+    "title": "Подарочный пакет L KRAFT-001",
+    "sku": "L KRAFT-001",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l-kraft-001.webp"
+    ],
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
+  },
+  {
+    "id": "p0088",
+    "slug": "l-kraft-002",
+    "title": "Подарочный пакет L KRAFT-002",
+    "sku": "L KRAFT-002",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l-kraft-002.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0089",
+    "slug": "l-kraft25-003",
+    "title": "Подарочный пакет L kraft25-003",
+    "sku": "L kraft25-003",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l-kraft25-003.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0090",
+    "slug": "l-kraft25-004",
+    "title": "Подарочный пакет L kraft25-004",
+    "sku": "L kraft25-004",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l-kraft25-004.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0091",
+    "slug": "l-301",
+    "title": "Подарочный пакет L-301",
+    "sku": "L-301",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "L",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l-301.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0092",
+    "slug": "l-302",
+    "title": "Подарочный пакет L-302",
+    "sku": "L-302",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "L",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l-302.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0093",
+    "slug": "l-303",
+    "title": "Подарочный пакет L-303",
+    "sku": "L-303",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "L",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l-303.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0094",
+    "slug": "l-304",
+    "title": "Подарочный пакет L-304",
+    "sku": "L-304",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "L",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l-304.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0095",
+    "slug": "l-305",
+    "title": "Подарочный пакет L-305",
+    "sku": "L-305",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "L",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l-305.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0096",
+    "slug": "l25-005",
+    "title": "Подарочный пакет L25-005",
+    "sku": "L25-005",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-005.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0097",
+    "slug": "l25-006",
+    "title": "Подарочный пакет L25-006",
+    "sku": "L25-006",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-006.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0098",
+    "slug": "l25-306",
+    "title": "Подарочный пакет L25-306",
+    "sku": "L25-306",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-306.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0099",
+    "slug": "l25-307",
+    "title": "Подарочный пакет L25-307",
+    "sku": "L25-307",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-307.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0100",
+    "slug": "l25-308",
+    "title": "Подарочный пакет L25-308",
+    "sku": "L25-308",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-308.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0101",
+    "slug": "l25-309",
+    "title": "Подарочный пакет L25-309",
+    "sku": "L25-309",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-309.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0102",
+    "slug": "l25-310",
+    "title": "Подарочный пакет L25-310",
+    "sku": "L25-310",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Синий",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-310.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0103",
+    "slug": "l25-311",
+    "title": "Подарочный пакет L25-311",
+    "sku": "L25-311",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-311.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0104",
+    "slug": "l25-312",
+    "title": "Подарочный пакет L25-312",
+    "sku": "L25-312",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-312.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0105",
+    "slug": "l25-313",
+    "title": "Подарочный пакет L25-313",
+    "sku": "L25-313",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-313.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0106",
+    "slug": "l25-314",
+    "title": "Подарочный пакет L25-314",
+    "sku": "L25-314",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Бирюзовый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-314.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0107",
+    "slug": "l25-315",
+    "title": "Подарочный пакет L25-315",
+    "sku": "L25-315",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Синий",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "L Kraft",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-315.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0108",
+    "slug": "l25-316",
+    "title": "Подарочный пакет L25-316",
+    "sku": "L25-316",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "L",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-316.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0109",
+    "slug": "l25-317",
+    "title": "Подарочный пакет L25-317",
+    "sku": "L25-317",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "L",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-317.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0110",
+    "slug": "l25-318",
+    "title": "Подарочный пакет L25-318",
+    "sku": "L25-318",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "L",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-318.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0111",
+    "slug": "l25-319",
+    "title": "Подарочный пакет L25-319",
+    "sku": "L25-319",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "L",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-319.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0112",
+    "slug": "l25-320",
+    "title": "Подарочный пакет L25-320",
+    "sku": "L25-320",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "L",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/l25-320.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0113",
+    "slug": "lh25-801",
+    "title": "Подарочный пакет LH25-801",
+    "sku": "LH25-801",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "327×264×136 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "LH",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lh25-801.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0114",
+    "slug": "lh25-802",
+    "title": "Подарочный пакет LH25-802",
+    "sku": "LH25-802",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "327×264×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "LH",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lh25-802.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0115",
+    "slug": "lp-3001",
+    "title": "Подарочный пакет LP-3001",
+    "sku": "LP-3001",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp-3001.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0116",
+    "slug": "lp-3002",
+    "title": "Подарочный пакет LP-3002",
+    "sku": "LP-3002",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Зелёный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp-3002.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0117",
+    "slug": "lp-3003",
+    "title": "Подарочный пакет LP-3003",
+    "sku": "LP-3003",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp-3003.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0118",
+    "slug": "lp-3004",
+    "title": "Подарочный пакет LP-3004",
+    "sku": "LP-3004",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp-3004.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0119",
+    "slug": "lp-3005",
+    "title": "Подарочный пакет LP-3005",
+    "sku": "LP-3005",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Фиолетовый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp-3005.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0120",
+    "slug": "lp25-3006",
+    "title": "Подарочный пакет LP25-3006",
+    "sku": "LP25-3006",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Зелёный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp25-3006.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0121",
+    "slug": "lp25-3007",
+    "title": "Подарочный пакет LP25-3007",
+    "sku": "LP25-3007",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp25-3007.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0122",
+    "slug": "lp25-3008",
+    "title": "Подарочный пакет LP25-3008",
+    "sku": "LP25-3008",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp25-3008.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0123",
+    "slug": "lp25-3009",
+    "title": "Подарочный пакет LP25-3009",
+    "sku": "LP25-3009",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp25-3009.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0124",
+    "slug": "lp25-3010",
+    "title": "Подарочный пакет LP25-3010",
+    "sku": "LP25-3010",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp25-3010.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0125",
+    "slug": "lp25-3011",
+    "title": "Подарочный пакет LP25-3011",
+    "sku": "LP25-3011",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp25-3011.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 170,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0126",
+    "slug": "lp25-3012",
+    "title": "Подарочный пакет LP25-3012",
+    "sku": "LP25-3012",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp25-3012.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0127",
+    "slug": "lp25-3013",
+    "title": "Подарочный пакет LP25-3013",
+    "sku": "LP25-3013",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp25-3013.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0128",
+    "slug": "lp25-3014",
+    "title": "Подарочный пакет LP25-3014",
+    "sku": "LP25-3014",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp25-3014.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0129",
+    "slug": "lp25-3015",
+    "title": "Подарочный пакет LP25-3015",
+    "sku": "LP25-3015",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "264×327×136 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "LP",
+    "inStock": true,
+    "retailPrice": 129,
+    "wholesalePrice": 80,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/lp25-3015.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0130",
+    "slug": "m-l-kraft-001",
+    "title": "Подарочный пакет M L kraft-001",
+    "sku": "M L kraft-001",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "M Kraft",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/m-l-kraft-001.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0131",
+    "slug": "m-l-kraft-002",
+    "title": "Подарочный пакет M L kraft-002",
+    "sku": "M L kraft-002",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Красный",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "M Kraft",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/m-l-kraft-002.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0132",
+    "slug": "m-kraft-001",
+    "title": "Подарочный пакет M kraft-001",
+    "sku": "M kraft-001",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "M Kraft",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-kraft-001.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0133",
+    "slug": "m-kraft-002",
+    "title": "Подарочный пакет M kraft-002",
+    "sku": "M kraft-002",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "M Kraft",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-kraft-002.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0134",
+    "slug": "m-kraft25-003",
+    "title": "Подарочный пакет M kraft25-003",
+    "sku": "M kraft25-003",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "M Kraft",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-kraft25-003.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0135",
+    "slug": "m-kraft25-004",
+    "title": "Подарочный пакет M kraft25-004",
+    "sku": "M kraft25-004",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "M Kraft",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-kraft25-004.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0136",
+    "slug": "m-201",
+    "title": "Подарочный пакет M-201",
+    "sku": "M-201",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-201.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0137",
+    "slug": "m-202",
+    "title": "Подарочный пакет M-202",
+    "sku": "M-202",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-202.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0138",
+    "slug": "m-203",
+    "title": "Подарочный пакет M-203",
+    "sku": "M-203",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-203.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0139",
+    "slug": "m-204",
+    "title": "Подарочный пакет M-204",
+    "sku": "M-204",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-204.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0140",
+    "slug": "m-205",
+    "title": "Подарочный пакет M-205",
+    "sku": "M-205",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-205.webp"
+    ],
+    "featured": true,
+    "compareAtPrice": 100,
+    "tags": [
+      "popular",
+      "sale"
+    ]
+  },
+  {
+    "id": "p0141",
+    "slug": "m-206",
+    "title": "Подарочный пакет M-206",
+    "sku": "M-206",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-206.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0142",
+    "slug": "m-207",
+    "title": "Подарочный пакет M-207",
+    "sku": "M-207",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-207.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0143",
+    "slug": "m-208",
+    "title": "Подарочный пакет M-208",
+    "sku": "M-208",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-208.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0144",
+    "slug": "m-209",
+    "title": "Подарочный пакет M-209",
+    "sku": "M-209",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-209.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0145",
+    "slug": "m-210",
+    "title": "Подарочный пакет M-210",
+    "sku": "M-210",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-210.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0146",
+    "slug": "m-211",
+    "title": "Подарочный пакет M-211",
+    "sku": "M-211",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-211.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0147",
+    "slug": "m-212",
+    "title": "Подарочный пакет M-212",
+    "sku": "M-212",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-212.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0148",
+    "slug": "m-213",
+    "title": "Подарочный пакет M-213",
+    "sku": "M-213",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-213.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0149",
+    "slug": "m-214",
+    "title": "Подарочный пакет M-214",
+    "sku": "M-214",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-214.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0150",
+    "slug": "m-215",
+    "title": "Подарочный пакет M-215",
+    "sku": "M-215",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "180×227×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m-215.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0151",
+    "slug": "m25-217",
+    "title": "Подарочный пакет M25-217",
+    "sku": "M25-217",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "180×230×100 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m25-217.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0152",
+    "slug": "m25-219",
+    "title": "Подарочный пакет M25-219",
+    "sku": "M25-219",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "18×23×10 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m25-219.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0153",
+    "slug": "m25-224",
+    "title": "Подарочный пакет M25-224",
+    "sku": "M25-224",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "18×23×10 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m25-224.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0154",
+    "slug": "m25-227",
+    "title": "Подарочный пакет M25-227",
+    "sku": "M25-227",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "180×230×100 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "M",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/m25-227.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0155",
+    "slug": "ml-kraft25-003",
+    "title": "Подарочный пакет ML kraft25-003",
+    "sku": "ML kraft25-003",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "ML Kraft",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml-kraft25-003.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 130,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0156",
+    "slug": "ml-kraft25-004",
+    "title": "Подарочный пакет ML kraft25-004",
+    "sku": "ML kraft25-004",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "ML Kraft",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml-kraft25-004.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0157",
+    "slug": "ml25-701",
+    "title": "Подарочный пакет ML25-701",
+    "sku": "ML25-701",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "ML",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml25-701.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0158",
+    "slug": "ml25-702",
+    "title": "Подарочный пакет ML25-702",
+    "sku": "ML25-702",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "ML",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml25-702.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0159",
+    "slug": "ml25-703",
+    "title": "Подарочный пакет ML25-703",
+    "sku": "ML25-703",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "ML",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml25-703.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0160",
+    "slug": "ml25-704",
+    "title": "Подарочный пакет ML25-704",
+    "sku": "ML25-704",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "ML",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml25-704.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0161",
+    "slug": "ml25-705",
+    "title": "Подарочный пакет ML25-705",
+    "sku": "ML25-705",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "ML",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml25-705.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0162",
+    "slug": "ml25-706",
+    "title": "Подарочный пакет ML25-706",
+    "sku": "ML25-706",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "ML",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml25-706.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0163",
+    "slug": "ml25-707",
+    "title": "Подарочный пакет ML25-707",
+    "sku": "ML25-707",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "ML",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml25-707.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0164",
+    "slug": "ml25-708",
+    "title": "Подарочный пакет ML25-708",
+    "sku": "ML25-708",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "ML",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml25-708.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0165",
+    "slug": "ml25-709",
+    "title": "Подарочный пакет ML25-709",
+    "sku": "ML25-709",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "ML",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml25-709.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0166",
+    "slug": "ml25-710",
+    "title": "Подарочный пакет ML25-710",
+    "sku": "ML25-710",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "ML",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/ml25-710.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0167",
+    "slug": "mlk-25-005",
+    "title": "Подарочный пакет MLK 25-005",
+    "sku": "MLK 25-005",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "ML Kraft",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/mlk-25-005.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0168",
+    "slug": "mlk-25-006",
+    "title": "Подарочный пакет MLK 25-006",
+    "sku": "MLK 25-006",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "220×310×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "ML Kraft",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/mlk-25-006.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0169",
+    "slug": "ms-601",
+    "title": "Подарочный пакет MS-601",
+    "sku": "MS-601",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms-601.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0170",
+    "slug": "ms-602",
+    "title": "Подарочный пакет MS-602",
+    "sku": "MS-602",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Зелёный",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms-602.webp"
+    ],
+    "featured": true,
+    "compareAtPrice": 100,
+    "tags": [
+      "popular",
+      "sale"
+    ]
+  },
+  {
+    "id": "p0171",
+    "slug": "ms-603",
+    "title": "Подарочный пакет MS-603",
+    "sku": "MS-603",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms-603.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0172",
+    "slug": "ms-604",
+    "title": "Подарочный пакет MS-604",
+    "sku": "MS-604",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms-604.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0173",
+    "slug": "ms-605",
+    "title": "Подарочный пакет MS-605",
+    "sku": "MS-605",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms-605.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0174",
+    "slug": "ms-606",
+    "title": "Подарочный пакет MS-606",
+    "sku": "MS-606",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Фиолетовый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms-606.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0175",
+    "slug": "ms-607",
+    "title": "Подарочный пакет MS-607",
+    "sku": "MS-607",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms-607.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0176",
+    "slug": "ms-608",
+    "title": "Подарочный пакет MS-608",
+    "sku": "MS-608",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms-608.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0177",
+    "slug": "ms-609",
+    "title": "Подарочный пакет MS-609",
+    "sku": "MS-609",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms-609.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0178",
+    "slug": "ms-610",
+    "title": "Подарочный пакет MS-610",
+    "sku": "MS-610",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms-610.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0179",
+    "slug": "ms25-611",
+    "title": "Подарочный пакет MS25-611",
+    "sku": "MS25-611",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms25-611.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0180",
+    "slug": "ms25-612",
+    "title": "Подарочный пакет MS25-612",
+    "sku": "MS25-612",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms25-612.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0181",
+    "slug": "ms25-613",
+    "title": "Подарочный пакет MS25-613",
+    "sku": "MS25-613",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms25-613.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0182",
+    "slug": "ms25-614",
+    "title": "Подарочный пакет MS25-614",
+    "sku": "MS25-614",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms25-614.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0183",
+    "slug": "ms25-615",
+    "title": "Подарочный пакет MS25-615",
+    "sku": "MS25-615",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms25-615.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0184",
+    "slug": "ms25-616",
+    "title": "Подарочный пакет MS25-616",
+    "sku": "MS25-616",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms25-616.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0185",
+    "slug": "ms25-617",
+    "title": "Подарочный пакет MS25-617",
+    "sku": "MS25-617",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms25-617.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 100,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0186",
+    "slug": "ms25-618",
+    "title": "Подарочный пакет MS25-618",
+    "sku": "MS25-618",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms25-618.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0187",
+    "slug": "ms25-619",
+    "title": "Подарочный пакет MS25-619",
+    "sku": "MS25-619",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms25-619.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0188",
+    "slug": "ms25-620",
+    "title": "Подарочный пакет MS25-620",
+    "sku": "MS25-620",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "140×200×65 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/ms25-620.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0189",
+    "slug": "q20-01",
+    "title": "Подарочный пакет Q20-01",
+    "sku": "Q20-01",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "200×200×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "Q20",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/q20-01.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0190",
+    "slug": "q20-01-02",
+    "title": "Подарочный пакет Q20-01-02",
+    "sku": "Q20-01-02",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "200×200×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "Q20",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/q20-01-02.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0191",
+    "slug": "q20-02",
+    "title": "Подарочный пакет Q20-02",
+    "sku": "Q20-02",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "200×200×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "Q20",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/q20-02.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0192",
+    "slug": "q20-03",
+    "title": "Подарочный пакет Q20-03",
+    "sku": "Q20-03",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "200×200×100 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "Q20",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/q20-03.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0193",
+    "slug": "q20-03-04",
+    "title": "Подарочный пакет Q20-03-04",
+    "sku": "Q20-03-04",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "200×200×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "Q20",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/q20-03-04.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0194",
+    "slug": "q20-04",
+    "title": "Подарочный пакет Q20-04",
+    "sku": "Q20-04",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "200×200×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "Q20",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/q20-04.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0195",
+    "slug": "q25-01",
+    "title": "Подарочный пакет Q25-01",
+    "sku": "Q25-01",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Серый",
+    "size": "250×250×100 мм",
+    "occasion": [
+      "Премиум",
+      "Универсальный"
+    ],
+    "collection": "Q 25",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/q25-01.webp"
+    ],
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
+  },
+  {
+    "id": "p0196",
+    "slug": "q25-01-q25-02",
+    "title": "Подарочный пакет Q25-01-Q25-02",
+    "sku": "Q25-01-Q25-02",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "250×250×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "Q 25",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/q25-01-q25-02.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0197",
+    "slug": "q25-02",
+    "title": "Подарочный пакет Q25-02",
+    "sku": "Q25-02",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "250×250×100 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "Q 25",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 61,
+    "packSize": 12,
+    "moq": 24,
+    "images": [
+      "/products/bags/q25-02.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0198",
+    "slug": "s25-101",
+    "title": "Подарочный пакет S25-101",
+    "sku": "S25-101",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Зелёный",
+    "size": "110×140×60 мм",
+    "occasion": [
+      "Новый год",
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/s25-101.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0199",
+    "slug": "s25-102",
+    "title": "Подарочный пакет S25-102",
+    "sku": "S25-102",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "110×140×60 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/s25-102.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0200",
+    "slug": "s25-103",
+    "title": "Подарочный пакет S25-103",
+    "sku": "S25-103",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "110×140×60 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/s25-103.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 100,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0201",
+    "slug": "s25-104",
+    "title": "Подарочный пакет S25-104",
+    "sku": "S25-104",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "110×140×60 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/s25-104.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0202",
+    "slug": "s25-105",
+    "title": "Подарочный пакет S25-105",
+    "sku": "S25-105",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "110×140×60 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "MS",
+    "inStock": true,
+    "retailPrice": 79,
+    "wholesalePrice": 49,
+    "packSize": 20,
+    "moq": 40,
+    "images": [
+      "/products/bags/s25-105.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0203",
+    "slug": "xl-kraft-001",
+    "title": "Подарочный пакет XL KRAFT-001",
+    "sku": "XL KRAFT-001",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "XL Kraft",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl-kraft-001.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0204",
+    "slug": "xl-kraft-002",
+    "title": "Подарочный пакет XL KRAFT-002",
+    "sku": "XL KRAFT-002",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "XL Kraft",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl-kraft-002.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0205",
+    "slug": "xl-kraft25-003",
+    "title": "Подарочный пакет XL kraft25-003",
+    "sku": "XL kraft25-003",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "XL Kraft",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl-kraft25-003.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0206",
+    "slug": "xl-kraft25-004",
+    "title": "Подарочный пакет XL kraft25-004",
+    "sku": "XL kraft25-004",
+    "type": "Пакеты",
+    "material": "Крафт",
+    "color": "Оранжевый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "XL Kraft",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl-kraft25-004.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0207",
+    "slug": "xl-501",
+    "title": "Подарочный пакет XL-501",
+    "sku": "XL-501",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl-501.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0208",
+    "slug": "xl-502",
+    "title": "Подарочный пакет XL-502",
+    "sku": "XL-502",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl-502.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0209",
+    "slug": "xl-503",
+    "title": "Подарочный пакет XL-503",
+    "sku": "XL-503",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl-503.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0210",
+    "slug": "xl-504",
+    "title": "Подарочный пакет XL-504",
+    "sku": "XL-504",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl-504.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0211",
+    "slug": "xl-505",
+    "title": "Подарочный пакет XL-505",
+    "sku": "XL-505",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl-505.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0212",
+    "slug": "xl25-506",
+    "title": "Подарочный пакет XL25-506",
+    "sku": "XL25-506",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl25-506.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0213",
+    "slug": "xl25-507",
+    "title": "Подарочный пакет XL25-507",
+    "sku": "XL25-507",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Серый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Премиум",
+      "Универсальный"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl25-507.webp"
+    ],
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
+  },
+  {
+    "id": "p0214",
+    "slug": "xl25-508",
+    "title": "Подарочный пакет XL25-508",
+    "sku": "XL25-508",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Бирюзовый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl25-508.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0215",
+    "slug": "xl25-509",
+    "title": "Подарочный пакет XL25-509",
+    "sku": "XL25-509",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Синий",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Универсальный",
+      "Для него"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl25-509.webp"
+    ],
+    "featured": false,
+    "compareAtPrice": 200,
+    "tags": [
+      "sale"
+    ]
+  },
+  {
+    "id": "p0216",
+    "slug": "xl25-510",
+    "title": "Подарочный пакет XL25-510",
+    "sku": "XL25-510",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl25-510.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0217",
+    "slug": "xl25-511",
+    "title": "Подарочный пакет XL25-511",
+    "sku": "XL25-511",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl25-511.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0218",
+    "slug": "xl25-512",
+    "title": "Подарочный пакет XL25-512",
+    "sku": "XL25-512",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl25-512.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0219",
+    "slug": "xl25-513",
+    "title": "Подарочный пакет XL25-513",
+    "sku": "XL25-513",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Жёлтый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl25-513.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0220",
+    "slug": "xl25-514",
+    "title": "Подарочный пакет XL25-514",
+    "sku": "XL25-514",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Красный",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "День рождения",
+      "Праздник"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl25-514.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0221",
+    "slug": "xl25-515",
+    "title": "Подарочный пакет XL25-515",
+    "sku": "XL25-515",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Розовый",
+    "size": "324×445×102 мм",
+    "occasion": [
+      "Для неё",
+      "День рождения"
+    ],
+    "collection": "XL",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xl25-515.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p0222",
+    "slug": "xxlh-9901",
+    "title": "Подарочный пакет XXLH-9901",
+    "sku": "XXLH-9901",
+    "type": "Пакеты",
+    "material": "Ламинированная бумага",
+    "color": "Оранжевый",
+    "size": "560×410×240 мм",
+    "occasion": [
+      "Праздник"
+    ],
+    "collection": "Xxlh",
+    "inStock": true,
+    "retailPrice": 159,
+    "wholesalePrice": 99,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/bags/xxlh-9901.webp"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p9001",
+    "slug": "wrap-paper-minimal",
+    "title": "Упаковочная бумага Minimal (лист)",
+    "sku": "WRAP-MIN-01",
+    "type": "Упаковка",
+    "material": "Бумага",
+    "color": "Микс",
+    "size": "700×1000 мм",
+    "occasion": [
+      "Универсальный"
+    ],
+    "collection": "Minimal",
+    "inStock": true,
+    "retailPrice": 59,
+    "wholesalePrice": 35,
+    "packSize": 25,
+    "moq": 50,
+    "images": [
+      "/products/placeholders/wrap.svg"
+    ],
+    "featured": true,
+    "tags": [
+      "popular"
+    ]
+  },
+  {
+    "id": "p9002",
+    "slug": "greeting-card-studio",
+    "title": "Открытка Studio (1 шт.)",
+    "sku": "CARD-ST-01",
+    "type": "Открытки",
+    "material": "Картон",
+    "color": "Белый",
+    "size": "A6",
+    "occasion": [
+      "Универсальный",
+      "Праздник"
+    ],
+    "collection": "Studio",
+    "inStock": true,
+    "retailPrice": 49,
+    "wholesalePrice": 29,
+    "packSize": 50,
+    "moq": 100,
+    "images": [
+      "/products/placeholders/card.svg"
+    ],
+    "featured": false
+  },
+  {
+    "id": "p9003",
+    "slug": "ribbon-satin",
+    "title": "Лента атласная 10 мм (катушка)",
+    "sku": "ACC-RIB-10",
+    "type": "Аксессуары",
+    "material": "Текстиль",
+    "color": "Розовый",
+    "size": "10 мм × 25 м",
+    "occasion": [
+      "Праздник",
+      "Для неё"
+    ],
+    "collection": "Basics",
+    "inStock": true,
+    "retailPrice": 99,
+    "wholesalePrice": 62,
+    "packSize": 10,
+    "moq": 20,
+    "images": [
+      "/products/placeholders/ribbon.svg"
+    ],
+    "featured": false
+  }
+]
