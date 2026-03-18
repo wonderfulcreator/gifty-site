@@ -1,5 +1,3 @@
-'use client';
-
 import { cn } from "@/lib/utils";
 
 export function Badge({
@@ -12,8 +10,8 @@ export function Badge({
   return (
     <span
       className={cn(
-        "inline-flex items-center rounded-full border border-zinc-200 bg-white px-2.5 py-1 text-xs text-zinc-700",
-        className
+        "inline-flex items-center rounded-full border border-[#efc49b] bg-[#fff7ed] px-3 py-1 text-xs font-semibold text-[#9a3c13]",
+        className,
       )}
     >
       {children}

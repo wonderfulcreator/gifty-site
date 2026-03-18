@@ -38,21 +38,21 @@ function MultiSelect({ label, options, value, onChange }: Multi) {
   }
 
   return (
-    <details className="group rounded-xl border border-zinc-200 bg-white p-4 open:shadow-sm">
-      <summary className="cursor-pointer list-none select-none text-sm font-medium text-zinc-900">
+    <details className="paper-card-soft overflow-hidden p-4 open:shadow-[0_12px_24px_rgba(164,65,17,0.08)]">
+      <summary className="cursor-pointer list-none select-none text-sm font-bold text-[#6b341c]">
         {label}
-        <span className="ml-2 text-xs text-zinc-500">
+        <span className="ml-2 text-xs font-medium text-[#9b765f]">
           {value.length ? `(${value.length})` : ""}
         </span>
       </summary>
-      <div className="mt-3 grid gap-2">
+      <div className="mt-4 grid gap-2">
         {options.map((opt) => (
-          <label key={opt} className="flex items-center gap-2 text-sm text-zinc-700">
+          <label key={opt} className="flex items-center gap-2 rounded-2xl bg-white/70 px-3 py-2 text-sm text-[#7c472a]">
             <input
               type="checkbox"
               checked={value.includes(opt)}
               onChange={() => toggle(opt)}
-              className="h-4 w-4 rounded border-zinc-300 text-zinc-900"
+              className="h-4 w-4 rounded border-[#d6ab7d] text-[#d95c1d] focus:ring-[#ffd9b3]"
             />
             <span className="leading-tight">{opt}</span>
           </label>
@@ -81,13 +81,13 @@ export function Filters({
 }) {
   return (
     <div className={cn("grid gap-3", className)}>
-      <div className="flex items-center justify-between gap-2 rounded-xl border border-zinc-200 bg-white p-4">
-        <label className="flex items-center gap-2 text-sm text-zinc-700">
+      <div className="paper-card-soft flex items-center justify-between gap-2 p-4">
+        <label className="flex items-center gap-2 text-sm font-medium text-[#7c472a]">
           <input
             type="checkbox"
             checked={inStockOnly}
             onChange={(e) => onInStockOnlyChange(e.target.checked)}
-            className="h-4 w-4 rounded border-zinc-300 text-zinc-900"
+            className="h-4 w-4 rounded border-[#d6ab7d] text-[#d95c1d] focus:ring-[#ffd9b3]"
           />
           Только в наличии
         </label>

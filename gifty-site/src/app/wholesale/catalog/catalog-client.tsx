@@ -1,12 +1,13 @@
 'use client';
 
+import Image from "next/image";
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Product } from "@/lib/types";
 import { getFilterOptions } from "@/lib/products";
 import { Input } from "@/components/Input";
 import { Filters, type SelectedFilters } from "@/components/Filters";
 import { ProductCard } from "@/components/ProductCard";
-import Link from "next/link";
 import { Badge } from "@/components/Badge";
 
 const emptySelected: SelectedFilters = {
@@ -53,48 +54,39 @@ export function WholesaleCatalogClient({ products }: { products: Product[] }) {
   }, [products, query, inStockOnly, selected]);
 
   return (
-    <div className="container py-10 md:py-14">
-      <div className="flex flex-wrap items-end justify-between gap-6">
-        <div className="max-w-3xl">
-          <Badge className="border-zinc-300 bg-white">B2B</Badge>
-          <h1 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-            Оптовый каталог
-          </h1>
-          <p className="mt-4 text-sm text-zinc-600">
-            То же, что и розничный каталог, но показываем оптовые цены, MOQ и
-            кратность. Для заказа большими партиями используйте «Быстрый заказ».
-          </p>
-        </div>
-
-        <div className="flex flex-wrap gap-3">
-          <Link
-            href="/wholesale/quick-order"
-            className="rounded-xl bg-zinc-900 px-5 py-3 text-sm font-medium text-white hover:bg-zinc-800"
-          >
-            Быстрый заказ
-          </Link>
-          <Link
-            href="/wholesale"
-            className="rounded-xl border border-zinc-300 bg-white px-5 py-3 text-sm font-medium text-zinc-900 hover:bg-zinc-50"
-          >
-            В кабинет
-          </Link>
+    <div className="container py-8 md:py-12">
+      <div className="paper-card hero-burst overflow-hidden px-6 py-8 md:px-10">
+        <div className="grid gap-8 lg:grid-cols-[1.1fr_300px] lg:items-center">
+          <div>
+            <Badge>B2B-каталог</Badge>
+            <h1 className="brand-heading mt-4 text-4xl md:text-5xl">Оптовые цены и подбор по коллекциям</h1>
+            <p className="mt-4 max-w-2xl text-base leading-7 text-[#8a6048]">
+              Здесь показываются те же товары, что и в рознице, но с акцентом на закупку: оптовая цена, наличие, MOQ и шаг коробов доступны рядом с карточками и быстрым заказом.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link href="/wholesale/quick-order" className="inline-flex items-center rounded-full border-2 border-[#b62b0d] bg-gradient-to-b from-[#f57822] to-[#e3531d] px-5 py-3 text-sm font-semibold text-white">
+                Быстрый заказ
+              </Link>
+              <Link href="/wholesale" className="inline-flex items-center rounded-full border-2 border-[#e7c7a5] bg-[#fff7ee] px-5 py-3 text-sm font-semibold text-[#8b3915] transition hover:bg-[#fff0df]">
+                В кабинет
+              </Link>
+            </div>
+          </div>
+          <div className="paper-card-soft flex items-center justify-center p-4">
+            <Image src="/brand/mascot-wink.png" alt="B2B каталог" width={220} height={205} className="h-auto w-full max-w-[180px]" />
+          </div>
         </div>
       </div>
 
-      <div className="mt-8 grid gap-8 lg:grid-cols-[280px_1fr]">
+      <div className="mt-8 grid gap-8 lg:grid-cols-[300px_1fr]">
         <aside className="space-y-4">
-          <div className="rounded-xl border border-zinc-200 bg-white p-4">
-            <div className="text-sm font-medium text-zinc-900">Поиск</div>
+          <div className="paper-card p-4">
+            <div className="text-sm font-black uppercase tracking-[0.16em] text-[#ab310a]">Поиск</div>
             <div className="mt-3">
-              <Input
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder="Название, SKU, коллекция…"
-              />
+              <Input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Название, SKU, коллекция…" />
             </div>
-            <div className="mt-3 text-xs text-zinc-500">
-              Найдено: <span className="font-medium text-zinc-700">{filtered.length}</span>
+            <div className="mt-3 text-xs text-[#9b765f]">
+              Найдено: <span className="font-bold text-[#6b341c]">{filtered.length}</span>
             </div>
           </div>
 
@@ -117,14 +109,14 @@ export function WholesaleCatalogClient({ products }: { products: Product[] }) {
             {filtered.map((p) => (
               <div key={p.id} className="grid gap-3">
                 <ProductCard product={p} mode="wholesale" />
-                <div className="-mt-2 rounded-2xl border border-zinc-200 bg-white p-4 text-xs text-zinc-600">
+                <div className="paper-card-soft p-4 text-xs text-[#7c472a]">
                   <div className="flex items-center justify-between">
                     <span>MOQ</span>
-                    <span className="font-medium text-zinc-900">{p.moq}</span>
+                    <span className="font-bold text-[#6b341c]">{p.moq}</span>
                   </div>
-                  <div className="mt-1 flex items-center justify-between">
+                  <div className="mt-2 flex items-center justify-between">
                     <span>Кратность</span>
-                    <span className="font-medium text-zinc-900">{p.packSize}</span>
+                    <span className="font-bold text-[#6b341c]">{p.packSize}</span>
                   </div>
                 </div>
               </div>
@@ -132,8 +124,8 @@ export function WholesaleCatalogClient({ products }: { products: Product[] }) {
           </div>
 
           {filtered.length === 0 ? (
-            <div className="mt-10 rounded-2xl border border-zinc-200 bg-white p-8 text-sm text-zinc-600">
-              Ничего не найдено. Попробуйте снять часть фильтров.
+            <div className="paper-card mt-8 p-8 text-sm text-[#8a6048]">
+              Ничего не найдено. Попробуйте снять часть фильтров или изменить поисковый запрос.
             </div>
           ) : null}
         </section>

@@ -1,36 +1,27 @@
+import Image from "next/image";
 import Link from "next/link";
+import { Badge } from "@/components/Badge";
 
-export default function OrdersPage() {
+export default function WholesaleOrdersPage() {
   return (
-    <div className="container py-12 md:py-16">
-      <div className="max-w-3xl">
-        <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">
-          Заказы (MVP)
-        </h1>
-        <p className="mt-4 text-sm text-zinc-600">
-          Здесь будет история заказов, возможность повторить заказ, скачать счета
-          и PDF‑документы. Сейчас — заглушка.
-        </p>
-
-        <div className="mt-10 rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm">
-          <div className="text-sm font-semibold">Пусто</div>
-          <p className="mt-2 text-sm text-zinc-600">
-            Подключим после интеграции с базой/CRM.
-          </p>
-
-          <div className="mt-6 flex flex-wrap gap-3">
-            <Link
-              href="/wholesale/quick-order"
-              className="rounded-xl bg-zinc-900 px-5 py-3 text-sm font-medium text-white hover:bg-zinc-800"
-            >
-              Сделать заказ
-            </Link>
-            <Link
-              href="/wholesale"
-              className="rounded-xl border border-zinc-300 bg-white px-5 py-3 text-sm font-medium text-zinc-900 hover:bg-zinc-50"
-            >
-              В кабинет
-            </Link>
+    <div className="container py-8 md:py-12">
+      <div className="paper-card hero-burst overflow-hidden px-6 py-8 md:px-10">
+        <div className="flex flex-col items-start gap-6 md:flex-row md:items-center">
+          <Image src="/brand/mascot-wink.png" alt="Заказы" width={220} height={205} className="h-auto w-40" />
+          <div>
+            <Badge>Заглушка раздела</Badge>
+            <h1 className="brand-heading mt-4 text-4xl md:text-5xl">Заказы и документы</h1>
+            <p className="mt-4 max-w-2xl text-base leading-7 text-[#8a6048]">
+              В следующей версии здесь можно подключить историю заказов, повтор закупки, PDF-счета, акты и экспорт в CRM. Маршрут уже готов, поэтому интеграция будет быстрой.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link href="/wholesale" className="inline-flex items-center rounded-full border-2 border-[#e7c7a5] bg-[#fff7ee] px-5 py-3 text-sm font-semibold text-[#8b3915] transition hover:bg-[#fff0df]">
+                ← В кабинет
+              </Link>
+              <Link href="/wholesale/quick-order" className="brand-link self-center">
+                Перейти в быстрый заказ →
+              </Link>
+            </div>
           </div>
         </div>
       </div>

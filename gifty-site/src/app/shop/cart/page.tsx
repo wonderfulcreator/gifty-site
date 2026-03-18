@@ -23,64 +23,62 @@ export default function CartPage() {
         return { it, p, price, sum };
       })
       .filter(Boolean) as Array<{
-      it: any;
-      p: any;
-      price: number;
-      sum: number;
-    }>;
+        it: any;
+        p: any;
+        price: number;
+        sum: number;
+      }>;
   }, [items]);
 
   return (
-    <div className="container py-10 md:py-14">
-      <div className="flex items-end justify-between gap-6">
-        <div>
-          <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">
-            Корзина
-          </h1>
-          <p className="mt-3 text-sm text-zinc-600">
-            В MVP можно смешивать розницу и опт — просто чтобы показать логику.
-          </p>
+    <div className="container py-8 md:py-12">
+      <div className="paper-card hero-burst overflow-hidden px-6 py-8 md:px-10">
+        <div className="grid gap-8 md:grid-cols-[1fr_240px] md:items-center">
+          <div>
+            <Badge>Корзина</Badge>
+            <h1 className="brand-heading mt-4 text-4xl md:text-5xl">Ваши выбранные позиции</h1>
+            <p className="mt-4 max-w-2xl text-base leading-7 text-[#8a6048]">
+              В этой MVP-версии можно смешивать розницу и опт, чтобы протестировать логику работы корзины и итогов перед следующим этапом интеграций.
+            </p>
+          </div>
+          <div className="paper-card-soft flex items-center justify-center p-4">
+            <Image src="/brand/mascot-wink.png" alt="Корзина" width={220} height={205} className="h-auto w-full max-w-[180px]" />
+          </div>
         </div>
-        <Link
-          href="/shop/products"
-          className="hidden text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4 md:inline"
-        >
-          Продолжить покупки →
-        </Link>
       </div>
 
-      <div className="mt-10 grid gap-8 lg:grid-cols-[1fr_360px]">
+      <div className="mt-8 grid gap-8 lg:grid-cols-[1fr_360px]">
         <section className="grid gap-4">
           {lines.length === 0 ? (
-            <div className="rounded-2xl border border-zinc-200 bg-white p-8 text-sm text-zinc-600">
-              Корзина пуста. <Link className="underline" href="/shop/products">Открыть каталог</Link>.
+            <div className="paper-card p-8 text-sm text-[#8a6048]">
+              Корзина пока пуста. <Link className="brand-link" href="/shop/products">Открыть каталог</Link>.
             </div>
           ) : null}
 
           {lines.map(({ it, p, price, sum }) => (
             <div
               key={`${it.productId}:${it.mode}`}
-              className="grid gap-4 rounded-2xl border border-zinc-200 bg-white p-4 shadow-sm md:grid-cols-[110px_1fr_130px]"
+              className="paper-card grid gap-4 p-4 md:grid-cols-[120px_1fr_140px]"
             >
-              <div className="relative aspect-square overflow-hidden rounded-xl bg-zinc-50">
+              <div className="relative aspect-square overflow-hidden rounded-[20px] border border-[#f0d6bc] bg-[linear-gradient(180deg,_#fffaf5,_#fff3e7)]">
                 <Image src={p.images?.[0] || "/products/placeholders/wrap.svg"} alt={p.title} fill className="object-contain p-3" />
               </div>
 
               <div>
                 <div className="flex flex-wrap items-center gap-2">
-                  <Link href={`/shop/product/${p.slug}`} className="text-sm font-medium text-zinc-900 hover:underline">
+                  <Link href={`/shop/product/${p.slug}`} className="text-base font-black text-[#6b341c] hover:text-[#d95c1d]">
                     {p.title}
                   </Link>
                   <Badge>{it.mode === "wholesale" ? "Опт" : "Розница"}</Badge>
                 </div>
-                <div className="mt-1 text-xs text-zinc-500">SKU: {p.sku}</div>
+                <div className="mt-1 text-xs text-[#9b765f]">SKU: {p.sku}</div>
 
-                <div className="mt-4 flex flex-wrap items-center gap-3">
-                  <div className="text-sm text-zinc-700">
-                    Цена: <span className="font-semibold text-zinc-900">{formatRUB(price)}</span>
+                <div className="mt-4 flex flex-wrap gap-4 text-sm text-[#7c472a]">
+                  <div>
+                    Цена: <span className="font-bold text-[#6b341c]">{formatRUB(price)}</span>
                   </div>
-                  <div className="text-sm text-zinc-700">
-                    Сумма: <span className="font-semibold text-zinc-900">{formatRUB(sum)}</span>
+                  <div>
+                    Сумма: <span className="font-bold text-[#6b341c]">{formatRUB(sum)}</span>
                   </div>
                 </div>
               </div>
@@ -92,10 +90,7 @@ export default function CartPage() {
                   value={it.qty}
                   onChange={(e) => setQty(it.productId, it.mode, Number(e.target.value))}
                 />
-                <Button
-                  variant="ghost"
-                  onClick={() => removeItem(it.productId, it.mode)}
-                >
+                <Button variant="ghost" onClick={() => removeItem(it.productId, it.mode)}>
                   Удалить
                 </Button>
               </div>
@@ -103,22 +98,22 @@ export default function CartPage() {
           ))}
         </section>
 
-        <aside className="h-fit rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
-          <div className="text-lg font-semibold tracking-tight">Итого</div>
+        <aside className="paper-card h-fit p-6">
+          <div className="text-2xl font-black text-[#6b341c]">Итого</div>
 
-          <div className="mt-4 grid gap-2 text-sm text-zinc-700">
-            <div className="flex items-center justify-between">
+          <div className="mt-4 grid gap-2 text-sm text-[#7c472a]">
+            <div className="paper-card-soft flex items-center justify-between px-4 py-3">
               <span>Розница</span>
-              <span className="font-semibold text-zinc-900">{formatRUB(subtotalRetail)}</span>
+              <span className="font-black text-[#6b341c]">{formatRUB(subtotalRetail)}</span>
             </div>
-            <div className="flex items-center justify-between">
+            <div className="paper-card-soft flex items-center justify-between px-4 py-3">
               <span>Опт</span>
-              <span className="font-semibold text-zinc-900">{formatRUB(subtotalWholesale)}</span>
+              <span className="font-black text-[#6b341c]">{formatRUB(subtotalWholesale)}</span>
             </div>
-            <div className="my-2 h-px bg-zinc-200" />
+            <div className="brand-divider my-3" />
             <div className="flex items-center justify-between text-base">
-              <span className="font-medium text-zinc-900">Всего</span>
-              <span className="font-semibold text-zinc-900">{formatRUB(total)}</span>
+              <span className="font-semibold text-[#6b341c]">Всего</span>
+              <span className="text-xl font-black text-[#ab310a]">{formatRUB(total)}</span>
             </div>
           </div>
 
@@ -128,17 +123,8 @@ export default function CartPage() {
             </Button>
           </Link>
 
-          <p className="mt-4 text-xs text-zinc-500">
-            MVP: оплата не подключена. На checkout фиксируем заявку и контакты.
-          </p>
-
-          <div className="mt-6 md:hidden">
-            <Link
-              href="/shop/products"
-              className="text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4"
-            >
-              Продолжить покупки →
-            </Link>
+          <div className="mt-4 text-xs leading-5 text-[#9b765f]">
+            Оплата не подключена: на checkout собираются контакты для обратной связи и подтверждения заказа.
           </div>
         </aside>
       </div>

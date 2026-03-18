@@ -17,28 +17,25 @@ type CartContextValue = {
 };
 
 const CartContext = createContext<CartContextValue | null>(null);
-
-const STORAGE_KEY = "gifty_cart_v1";
+const STORAGE_KEY = "paket_paketych_cart_v2";
 
 export function CartProvider({ children }: { children: React.ReactNode }) {
   const [items, setItems] = useState<CartItem[]>([]);
 
-  // load
   useEffect(() => {
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) setItems(JSON.parse(raw));
     } catch {
-      // ignore
+      // ignore broken local state
     }
   }, []);
 
-  // persist
   useEffect(() => {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(items));
     } catch {
-      // ignore
+      // ignore write errors
     }
   }, [items]);
 
@@ -65,7 +62,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
       const existing = prev.find((x) => x.productId === productId && x.mode === mode);
       if (existing) {
         return prev.map((x) =>
-          x.productId === productId && x.mode === mode ? { ...x, qty: x.qty + safeQty } : x
+          x.productId === productId && x.mode === mode ? { ...x, qty: x.qty + safeQty } : x,
         );
       }
       return [...prev, { productId, mode, qty: safeQty }];
@@ -80,9 +77,11 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
     setItems((prev) =>
       prev
         .map((x) =>
-          x.productId === productId && x.mode === mode ? { ...x, qty: Math.max(1, Math.floor(qty)) } : x
+          x.productId === productId && x.mode === mode
+            ? { ...x, qty: Math.max(1, Math.floor(qty)) }
+            : x,
         )
-        .filter((x) => x.qty > 0)
+        .filter((x) => x.qty > 0),
     );
   }
 

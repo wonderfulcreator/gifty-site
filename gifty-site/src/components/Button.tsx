@@ -17,15 +17,15 @@ export function Button({
   return (
     <button
       className={cn(
-        "inline-flex items-center justify-center rounded-xl border text-sm font-medium transition active:scale-[0.99] disabled:opacity-50 disabled:cursor-not-allowed",
-        size === "sm" ? "h-9 px-3" : "h-11 px-4",
+        "inline-flex items-center justify-center gap-2 rounded-full border-2 text-sm font-semibold transition duration-200 active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-50",
+        size === "sm" ? "h-10 px-4" : "h-12 px-5",
         variant === "primary" &&
-          "border-zinc-900 bg-zinc-900 text-white hover:bg-zinc-800",
+          "border-[#b62b0d] bg-gradient-to-b from-[#f57822] to-[#e3531d] text-white shadow-[0_10px_24px_rgba(198,81,25,0.24)] hover:-translate-y-0.5 hover:shadow-[0_14px_28px_rgba(198,81,25,0.28)]",
         variant === "secondary" &&
-          "border-zinc-300 bg-white text-zinc-900 hover:bg-zinc-50",
+          "border-[#e6c6a2] bg-[#fff7ef] text-[#8b3915] shadow-[0_8px_18px_rgba(158,72,23,0.08)] hover:bg-[#fff2e2]",
         variant === "ghost" &&
-          "border-transparent bg-transparent text-zinc-900 hover:bg-zinc-100",
-        className
+          "border-transparent bg-transparent text-[#8b3915] hover:bg-[#fff1e4]",
+        className,
       )}
       {...props}
     />

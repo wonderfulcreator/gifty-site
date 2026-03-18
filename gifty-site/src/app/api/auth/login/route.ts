@@ -7,13 +7,13 @@ export async function POST(req: Request) {
   const username = body?.username as string | undefined;
   const password = body?.password as string | undefined;
 
-  const expectedUser = process.env.B2B_USERNAME || "wholesale";
-  const expectedPass = process.env.B2B_PASSWORD || "gifty2026";
+  const expectedUser = process.env.B2B_USERNAME || "paketych";
+  const expectedPass = process.env.B2B_PASSWORD || "paket2026";
 
   if (!username || !password || username !== expectedUser || password !== expectedPass) {
     return NextResponse.json(
       { ok: false, error: "Неверный логин или пароль" },
-      { status: 401 }
+      { status: 401 },
     );
   }
 

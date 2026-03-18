@@ -1,49 +1,28 @@
+import Image from "next/image";
 import Link from "next/link";
+import { Badge } from "@/components/Badge";
 
-export default function ListsPage() {
+export default function WholesaleListsPage() {
   return (
-    <div className="container py-12 md:py-16">
-      <div className="flex flex-wrap items-end justify-between gap-6">
-        <div className="max-w-3xl">
-          <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">
-            Списки закупки / Repeat order (MVP)
-          </h1>
-          <p className="mt-4 text-sm text-zinc-600">
-            В полной версии здесь появятся сохранённые списки закупки, шаблоны
-            (например, «еженедельная закупка») и повтор заказа в один клик.
-            Сейчас — заглушка с маршрутом.
-          </p>
-        </div>
-
-        <Link
-          href="/wholesale"
-          className="text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4"
-        >
-          ← В кабинет
-        </Link>
-      </div>
-
-      <div className="mt-10 rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm">
-        <div className="text-sm font-semibold">Как это будет работать</div>
-        <ul className="mt-3 list-disc pl-5 text-sm text-zinc-600">
-          <li>Сохранить текущую корзину как список</li>
-          <li>Повторить список: «Добавить всё в корзину»</li>
-          <li>История: повтор конкретного заказа</li>
-        </ul>
-
-        <div className="mt-6 flex flex-wrap gap-3">
-          <Link
-            href="/wholesale/quick-order"
-            className="rounded-xl bg-zinc-900 px-5 py-3 text-sm font-medium text-white hover:bg-zinc-800"
-          >
-            Перейти в быстрый заказ
-          </Link>
-          <Link
-            href="/shop/cart"
-            className="rounded-xl border border-zinc-300 bg-white px-5 py-3 text-sm font-medium text-zinc-900 hover:bg-zinc-50"
-          >
-            Открыть корзину
-          </Link>
+    <div className="container py-8 md:py-12">
+      <div className="paper-card hero-burst overflow-hidden px-6 py-8 md:px-10">
+        <div className="flex flex-col items-start gap-6 md:flex-row md:items-center">
+          <Image src="/brand/mascot-wink.png" alt="Списки закупки" width={220} height={205} className="h-auto w-40" />
+          <div>
+            <Badge>Повтор заказов</Badge>
+            <h1 className="brand-heading mt-4 text-4xl md:text-5xl">Списки закупки и шаблоны</h1>
+            <p className="mt-4 max-w-2xl text-base leading-7 text-[#8a6048]">
+              Здесь удобно хранить повторяемые наборы товаров: сезонные витрины, еженедельные закупки, корпоративные подборки. В текущей версии оставили раздел как готовый маршрут без бизнес-логики.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <Link href="/wholesale" className="inline-flex items-center rounded-full border-2 border-[#e7c7a5] bg-[#fff7ee] px-5 py-3 text-sm font-semibold text-[#8b3915] transition hover:bg-[#fff0df]">
+                ← В кабинет
+              </Link>
+              <Link href="/shop/cart" className="brand-link self-center">
+                Открыть корзину →
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </div>

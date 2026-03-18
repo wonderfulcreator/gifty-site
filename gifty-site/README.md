@@ -1,127 +1,105 @@
-# GIFTY — brand + shop + wholesale (Next.js + Tailwind)
+# Пакет Пакетыч — rebrand сайта магазина и B2B-кабинета
 
-MVP‑сайт по ТЗ из `CHATGPT_PRO_SITE_TZ_PROMPT.md`:
+Проект собран на **Next.js 14 + Tailwind CSS** и сохраняет прежний функционал:
 
-- **Витрина бренда** (главная) — editorial‑hero, подборка «Витрина».
-- **Каталог** `/shop/products` — фильтры (multi‑select), поиск, добавление в корзину.
-- **Карточка товара** `/shop/product/[slug]` — фото, атрибуты, цены retail/wholesale.
-- **Корзина** `/shop/cart` и **checkout** `/shop/checkout` — MVP без оплаты.
-- **Блог (MDX)** `/blog` и `/blog/[slug]` — статьи из `content/blog/*.mdx`.
-- **B2B кабинет** `/wholesale` (JWT + httpOnly cookie):
-  - `/wholesale/login` — логин
-  - `/wholesale/catalog` — каталог с оптовыми ценами + фильтры
-  - `/wholesale/quick-order` — быстрый заказ таблицей (MOQ/кратность/наличие)
-  - `/wholesale/lists` — списки закупки / repeat order (заглушка)
-  - `/wholesale/orders` — заглушка под историю/документы
+- витрина бренда и главная страница;
+- каталог `/shop/products` с фильтрами и поиском;
+- карточка товара `/shop/product/[slug]`;
+- корзина `/shop/cart` и checkout `/shop/checkout`;
+- блог на MDX `/blog` и `/blog/[slug]`;
+- B2B-кабинет `/wholesale` с логином, каталогом, быстрым заказом и служебными маршрутами.
 
----
+## Что изменено в ребрендинге
 
-## 1) Установка и запуск
+- внедрён новый бренд **Пакет Пакетыч**;
+- использованы фирменные иллюстрации и маскот;
+- обновлены цвета, карточки, кнопки, формы, хедер и футер;
+- сохранены все маршруты и базовая логика работы корзины, каталога и B2B-раздела.
 
-```bash
-npm i
-cp .env.example .env.local
+## Структура репозитория
+
+Репозиторий содержит приложение внутри папки `gifty-site`.
+
+```powershell
+cd .\gifty-site
+```
+
+Дальше все команды запускаются из этой папки.
+
+## Локальный запуск
+
+```powershell
+cd .\gifty-site
+npm install
+Copy-Item .env.example .env.local
 npm run dev
 ```
 
-Откройте: `http://localhost:3000`
+Откройте `http://localhost:3000`.
 
----
+## Production build
 
-## 2) Переменные окружения
-
-Файл: **`.env.local`** (в git не коммитится)
-
-Минимально для работы B2B:
-
-```env
-B2B_USERNAME=wholesale
-B2B_PASSWORD=gifty2026
-JWT_SECRET=change-me-in-production
-```
-
-Маркетплейсы (уже заполнены в `.env.example`):
-
-```env
-NEXT_PUBLIC_OZON_URL=...
-NEXT_PUBLIC_WB_URL=...
-```
-
----
-
-## 3) Как залить в GitHub (репозиторий уже создан: wonderfulcreator/gifty-site)
-
-### Вариант A — через git (рекомендуется)
-
-1) Распакуйте архив в папку `gifty-site`
-2) Откройте терминал в этой папке и выполните:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: GIFTY MVP"
-git branch -M main
-git remote add origin https://github.com/wonderfulcreator/gifty-site.git
-git push -u origin main
-```
-
-> Если GitHub попросит пароль — используйте **Personal Access Token** (PAT), т.к. пароль аккаунта больше не принимается.
-
-### Вариант B — через веб‑интерфейс GitHub
-
-1) Откройте ваш репозиторий `gifty-site`
-2) Нажмите **Add file → Upload files**
-3) Перетащите содержимое папки проекта (не сам zip), нажмите **Commit changes**
-
----
-
-## 4) Как “загрузить на сайт” (деплой)
-
-### Рекомендуемый способ: Vercel
-
-1) Зайдите на Vercel и нажмите **New Project**
-2) Выберите репозиторий `wonderfulcreator/gifty-site`
-3) В разделе **Environment Variables** добавьте:
-   - `JWT_SECRET`
-   - `B2B_USERNAME`
-   - `B2B_PASSWORD`
-   - (опционально) `NEXT_PUBLIC_SITE_URL` — домен проекта на Vercel после деплоя
-4) Нажмите **Deploy**
-
-После деплоя вы получите URL вида `https://gifty-site-....vercel.app`
-
-### Альтернатива: свой сервер/VPS
-
-1) Установите Node.js 18+  
-2) На сервере:
-
-```bash
-git clone https://github.com/wonderfulcreator/gifty-site.git
-cd gifty-site
-npm i
-cp .env.example .env.local
-# заполните .env.local
+```powershell
+cd .\gifty-site
+npm install
 npm run build
 npm run start
 ```
 
-3) Подключите reverse‑proxy (nginx) на порт 3000.
+## Переменные окружения
 
----
+Минимальный набор для MVP:
 
-## 5) Где менять ассортимент
+```env
+B2B_USERNAME=paketych
+B2B_PASSWORD=paket2026
+JWT_SECRET=change-me-in-production
+```
 
-Файл: `src/data/products.json`
+Дополнительно можно заполнить маркетплейсы и контакты в `.env.local`.
 
-- `featured: true` — попадает в «Витрину» на главной
-- `retailPrice`, `wholesalePrice`, `packSize`, `moq` — правила опта
-- `images` — путь к картинкам в `public/`
+## PowerShell команды для force push
 
----
+Команды выполняются **из корня репозитория**, где лежит папка `.git`:
 
-## 6) Что дальше можно улучшить
+```powershell
+git add .
+git commit -m "Rebrand: Пакет Пакетыч"
+git push origin main --force
+```
 
-- Подключить формы (Partners/Contact/Checkout) к email/CRM/Telegram
-- Подключить оплату (ЮKassa/CloudPayments/Stripe)
-- Добавить реальные аккаунты оптовиков + роли + список заказов в БД
-- Оптимизировать фото (доп. кадрирование/фон/серии)
+Если коммит уже существует и нужно просто дожать публикацию:
+
+```powershell
+git push origin main --force
+```
+
+## Деплой через Vercel
+
+Если проект уже привязан к Vercel, новый push в `main` запустит свежий деплой автоматически.
+
+Если нужно завести проект заново:
+
+1. Импортируйте репозиторий в Vercel.
+2. Укажите Root Directory = `gifty-site`.
+3. Добавьте переменные окружения:
+   - `JWT_SECRET`
+   - `B2B_USERNAME`
+   - `B2B_PASSWORD`
+   - `NEXT_PUBLIC_SITE_URL`
+4. Нажмите Deploy.
+
+## Где менять ассортимент
+
+Ассортимент хранится в файле:
+
+```text
+src/data/products.json
+```
+
+Ключевые поля:
+
+- `featured` — попадание на главную;
+- `retailPrice`, `wholesalePrice` — цены;
+- `packSize`, `moq` — правила опта;
+- `images` — путь к картинкам в `public/`.

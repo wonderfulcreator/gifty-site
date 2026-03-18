@@ -12,10 +12,7 @@ import { useCart } from "@/providers/CartProvider";
 export default function QuickOrderPage() {
   const { addItem } = useCart();
 
-  const products = useMemo(() => {
-    return allProducts;
-  }, []);
-
+  const products = useMemo(() => allProducts, []);
   const options = useMemo(() => getFilterOptions(products), [products]);
 
   const [query, setQuery] = useState("");
@@ -37,53 +34,37 @@ export default function QuickOrderPage() {
   }
 
   return (
-    <div className="container py-12 md:py-16">
-      <div className="flex flex-wrap items-end justify-between gap-6">
-        <div className="max-w-2xl">
-          <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">
-            Быстрый заказ (опт)
-          </h1>
-          <p className="mt-4 text-sm text-zinc-600">
-            Введите количество — добавьте в корзину. Подсказки по MOQ и кратности
-            показаны, но не блокируют (MVP).
-          </p>
+    <div className="container py-8 md:py-12">
+      <div className="paper-card hero-burst overflow-hidden px-6 py-8 md:px-10">
+        <div className="flex flex-wrap items-end justify-between gap-6">
+          <div className="max-w-3xl">
+            <Badge>Quick order</Badge>
+            <h1 className="brand-heading mt-4 text-4xl md:text-5xl">Быстрый заказ по SKU</h1>
+            <p className="mt-4 text-base leading-7 text-[#8a6048]">
+              Таблица сохранила прежнюю механику: вводите количество, видите MOQ и кратность, добавляете позицию в корзину. Это самый быстрый путь для повторяющихся закупок и сезонных подборок.
+            </p>
+          </div>
+          <Link href="/wholesale" className="brand-link">
+            ← В кабинет
+          </Link>
         </div>
-        <Link
-          href="/wholesale"
-          className="text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4"
-        >
-          ← В кабинет
-        </Link>
       </div>
 
-      <div className="mt-10 grid gap-4 rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm md:grid-cols-[1fr_260px] md:items-end">
+      <div className="paper-card mt-8 grid gap-4 p-6 md:grid-cols-[1fr_300px] md:items-end">
         <div>
-          <div className="text-sm font-medium text-zinc-900">Поиск</div>
+          <div className="text-sm font-black uppercase tracking-[0.16em] text-[#ab310a]">Поиск</div>
           <div className="mt-2">
-            <Input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="SKU, название, коллекция…"
-            />
+            <Input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="SKU, название, коллекция…" />
           </div>
         </div>
         <div>
-          <div className="text-sm font-medium text-zinc-900">Коллекция</div>
+          <div className="text-sm font-black uppercase tracking-[0.16em] text-[#ab310a]">Коллекция</div>
           <div className="mt-2 flex flex-wrap gap-2">
-            <Button
-              size="sm"
-              variant={collection === null ? "primary" : "secondary"}
-              onClick={() => setCollection(null)}
-            >
+            <Button size="sm" variant={collection === null ? "primary" : "secondary"} onClick={() => setCollection(null)}>
               Все
             </Button>
             {options.collections.slice(0, 6).map((c) => (
-              <Button
-                key={c}
-                size="sm"
-                variant={collection === c ? "primary" : "secondary"}
-                onClick={() => setCollection(c)}
-              >
+              <Button key={c} size="sm" variant={collection === c ? "primary" : "secondary"} onClick={() => setCollection(c)}>
                 {c}
               </Button>
             ))}
@@ -91,19 +72,19 @@ export default function QuickOrderPage() {
         </div>
       </div>
 
-      <div className="mt-6 overflow-hidden rounded-3xl border border-zinc-200 bg-white shadow-sm">
-        <div className="max-h-[70vh] overflow-auto">
+      <div className="paper-card mt-6 overflow-hidden">
+        <div className="max-h-[72vh] overflow-auto">
           <table className="min-w-full text-left text-sm">
-            <thead className="sticky top-0 z-10 bg-white">
-              <tr className="border-b border-zinc-200">
-                <th className="px-4 py-3 font-semibold text-zinc-900">SKU</th>
-                <th className="px-4 py-3 font-semibold text-zinc-900">Товар</th>
-                <th className="px-4 py-3 font-semibold text-zinc-900">Опт цена</th>
-                <th className="px-4 py-3 font-semibold text-zinc-900">MOQ</th>
-                <th className="px-4 py-3 font-semibold text-zinc-900">Кратность</th>
-                <th className="px-4 py-3 font-semibold text-zinc-900">Наличие</th>
-                <th className="px-4 py-3 font-semibold text-zinc-900">Qty</th>
-                <th className="px-4 py-3 font-semibold text-zinc-900"></th>
+            <thead className="sticky top-0 z-10 bg-[#fffaf4]">
+              <tr className="border-b border-[#edd6bd] text-[#6b341c]">
+                <th className="px-4 py-3 font-black">SKU</th>
+                <th className="px-4 py-3 font-black">Товар</th>
+                <th className="px-4 py-3 font-black">Опт цена</th>
+                <th className="px-4 py-3 font-black">MOQ</th>
+                <th className="px-4 py-3 font-black">Кратность</th>
+                <th className="px-4 py-3 font-black">Наличие</th>
+                <th className="px-4 py-3 font-black">Qty</th>
+                <th className="px-4 py-3 font-black"></th>
               </tr>
             </thead>
             <tbody>
@@ -113,36 +94,28 @@ export default function QuickOrderPage() {
                 const packOk = qty % p.packSize === 0;
 
                 return (
-                  <tr key={p.id} className="border-b border-zinc-100">
+                  <tr key={p.id} className="border-b border-[#f3e4d5] text-[#7c472a]">
                     <td className="px-4 py-4 align-top">
-                      <div className="font-medium text-zinc-900">{p.sku}</div>
-                      <div className="mt-1 text-xs text-zinc-500">{p.collection}</div>
+                      <div className="font-bold text-[#6b341c]">{p.sku}</div>
+                      <div className="mt-1 text-xs text-[#9b765f]">{p.collection}</div>
                     </td>
                     <td className="px-4 py-4 align-top">
-                      <div className="font-medium text-zinc-900">{p.title}</div>
-                      <div className="mt-1 flex flex-wrap gap-2">
+                      <div className="font-bold text-[#6b341c]">{p.title}</div>
+                      <div className="mt-2 flex flex-wrap gap-2">
                         <Badge>{p.type}</Badge>
                         <Badge>{p.material}</Badge>
                         <Badge>{p.size}</Badge>
                       </div>
                     </td>
                     <td className="px-4 py-4 align-top">
-                      <div className="font-semibold text-zinc-900">
-                        {formatRUB(p.wholesalePrice)}
-                      </div>
-                      <div className="mt-1 text-xs text-zinc-500">
-                        розница {formatRUB(p.retailPrice)}
-                      </div>
+                      <div className="font-black text-[#ab310a]">{formatRUB(p.wholesalePrice)}</div>
+                      <div className="mt-1 text-xs text-[#9b765f]">розница {formatRUB(p.retailPrice)}</div>
                     </td>
                     <td className="px-4 py-4 align-top">
-                      <div className={moqOk ? "text-zinc-900" : "text-rose-700"}>
-                        {p.moq}
-                      </div>
+                      <div className={moqOk ? "font-semibold text-[#6b341c]" : "font-semibold text-rose-700"}>{p.moq}</div>
                     </td>
                     <td className="px-4 py-4 align-top">
-                      <div className={packOk ? "text-zinc-900" : "text-rose-700"}>
-                        {p.packSize}
-                      </div>
+                      <div className={packOk ? "font-semibold text-[#6b341c]" : "font-semibold text-rose-700"}>{p.packSize}</div>
                       {!moqOk || !packOk ? (
                         <div className="mt-2 text-xs text-rose-700">
                           {!moqOk ? "Ниже MOQ. " : ""}
@@ -154,13 +127,9 @@ export default function QuickOrderPage() {
                     </td>
                     <td className="px-4 py-4 align-top">
                       {p.inStock ? (
-                        <span className="inline-flex rounded-full bg-emerald-50 px-2 py-1 text-xs text-emerald-800">
-                          В наличии
-                        </span>
+                        <span className="inline-flex rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-semibold text-emerald-700">В наличии</span>
                       ) : (
-                        <span className="inline-flex rounded-full bg-zinc-100 px-2 py-1 text-xs text-zinc-600">
-                          Нет
-                        </span>
+                        <span className="inline-flex rounded-full bg-zinc-100 px-2.5 py-1 text-xs font-semibold text-zinc-500">Нет</span>
                       )}
                     </td>
                     <td className="px-4 py-4 align-top">
@@ -168,21 +137,12 @@ export default function QuickOrderPage() {
                         type="number"
                         min={1}
                         value={qty}
-                        onChange={(e) =>
-                          setQtyMap((prev) => ({
-                            ...prev,
-                            [p.id]: Number(e.target.value),
-                          }))
-                        }
+                        onChange={(e) => setQtyMap((prev) => ({ ...prev, [p.id]: Number(e.target.value) }))}
                         className="h-10 w-28"
                       />
                     </td>
                     <td className="px-4 py-4 align-top">
-                      <Button
-                        size="sm"
-                        onClick={() => addItem(p.id, "wholesale", qty)}
-                        disabled={!p.inStock}
-                      >
+                      <Button size="sm" onClick={() => addItem(p.id, "wholesale", qty)} disabled={!p.inStock}>
                         В корзину
                       </Button>
                     </td>
@@ -192,14 +152,12 @@ export default function QuickOrderPage() {
             </tbody>
           </table>
 
-          {filtered.length === 0 ? (
-            <div className="p-8 text-sm text-zinc-600">Ничего не найдено.</div>
-          ) : null}
+          {filtered.length === 0 ? <div className="p-8 text-sm text-[#8a6048]">Ничего не найдено.</div> : null}
         </div>
       </div>
 
-      <div className="mt-6 text-sm text-zinc-600">
-        <Link className="underline" href="/shop/cart">
+      <div className="mt-6 text-sm text-[#8a6048]">
+        <Link className="brand-link" href="/shop/cart">
           Перейти в корзину →
         </Link>
       </div>

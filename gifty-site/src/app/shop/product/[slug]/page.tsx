@@ -30,25 +30,24 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
   if (!product) return notFound();
 
   return (
-    <div className="container py-10 md:py-14">
-      <Link
-        href="/shop/products"
-        className="text-sm font-medium text-zinc-900 underline decoration-zinc-900/20 underline-offset-4"
-      >
+    <div className="container py-8 md:py-12">
+      <Link href="/shop/products" className="brand-link">
         ← Назад в каталог
       </Link>
 
-      <div className="mt-8 grid gap-10 lg:grid-cols-2 lg:items-start">
-        <div className="rounded-3xl border border-zinc-200 bg-white p-6 shadow-sm">
-          <div className="relative aspect-square">
-            <Image
-              src={product.images?.[0] || "/products/placeholders/wrap.svg"}
-              alt={product.title}
-              fill
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-contain p-6"
-              priority
-            />
+      <div className="mt-6 grid gap-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
+        <div className="paper-card p-4 md:p-6">
+          <div className="rounded-[24px] border border-[#f0d6bc] bg-[radial-gradient(circle_at_top_right,_rgba(255,199,96,0.26),_transparent_30%),linear-gradient(180deg,_#fffaf5,_#fff3e7)] p-4">
+            <div className="relative aspect-square overflow-hidden rounded-[20px] bg-white/60">
+              <Image
+                src={product.images?.[0] || "/products/placeholders/wrap.svg"}
+                alt={product.title}
+                fill
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                className="object-contain p-6"
+                priority
+              />
+            </div>
           </div>
 
           <div className="mt-5 flex flex-wrap gap-2">
@@ -60,50 +59,38 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
           </div>
         </div>
 
-        <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-sm">
+        <div className="paper-card p-6 md:p-8">
           <div className="flex items-start justify-between gap-4">
-            <h1 className="text-2xl font-semibold tracking-tight md:text-3xl">
-              {product.title}
-            </h1>
-            {product.featured ? <Badge>Витрина</Badge> : null}
+            <div>
+              <Badge className="bg-white">{product.collection}</Badge>
+              <h1 className="brand-heading mt-4 text-3xl md:text-4xl">{product.title}</h1>
+            </div>
+            {product.featured ? <Badge>Хит</Badge> : null}
           </div>
 
-          <p className="mt-4 text-sm text-zinc-600">
-            Коллекция: <span className="text-zinc-900">{product.collection}</span>
-          </p>
-
-          <div className="mt-6 grid gap-2 text-sm text-zinc-700">
-            <div className="flex items-center justify-between">
+          <div className="mt-6 grid gap-3 text-sm text-[#7c472a]">
+            <div className="paper-card-soft flex items-center justify-between px-4 py-3">
               <span>Розничная цена</span>
-              <span className="font-semibold text-zinc-900">
-                <Price amount={product.retailPrice} />
-              </span>
+              <span className="text-lg font-black text-[#ab310a]"><Price amount={product.retailPrice} /></span>
             </div>
-            <div className="flex items-center justify-between">
+            <div className="paper-card-soft flex items-center justify-between px-4 py-3">
               <span>Оптовая цена</span>
-              <span className="font-semibold text-zinc-900">
-                <Price amount={product.wholesalePrice} />
-              </span>
+              <span className="text-lg font-black text-[#ab310a]"><Price amount={product.wholesalePrice} /></span>
             </div>
           </div>
 
-          <div className="mt-6 rounded-2xl border border-zinc-200 bg-zinc-50 p-4 text-sm text-zinc-700">
-            <div className="font-medium text-zinc-900">Оптовые правила</div>
-            <div className="mt-2 grid gap-1">
-              <div>MOQ: {product.moq} шт.</div>
-              <div>Кратность: {product.packSize} шт.</div>
-              <div className="text-xs text-zinc-500">
-                В B2B‑кабинете показываем подсказки при нарушении MOQ/кратности.
-              </div>
+          <div className="mt-6 grid gap-3 md:grid-cols-2">
+            <div className="paper-card-soft p-4 text-sm text-[#7c472a]">
+              <div className="text-xs font-semibold uppercase tracking-[0.14em] text-[#ab310a]">Наличие</div>
+              <div className="mt-2 font-bold text-[#6b341c]">{product.inStock ? "В наличии" : "Под заказ"}</div>
+            </div>
+            <div className="paper-card-soft p-4 text-sm text-[#7c472a]">
+              <div className="text-xs font-semibold uppercase tracking-[0.14em] text-[#ab310a]">Оптовые правила</div>
+              <div className="mt-2 font-bold text-[#6b341c]">MOQ {product.moq} • кратность {product.packSize}</div>
             </div>
           </div>
 
           <AddToCartPanel productId={product.id} packSize={product.packSize} />
-
-          <p className="mt-6 text-xs text-zinc-500">
-            Примечание: контент карточки — MVP. Можно добавить описание, фото
-            серий, материалы, сертификаты и т.д.
-          </p>
         </div>
       </div>
     </div>

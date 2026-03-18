@@ -4,7 +4,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CartProvider } from "@/providers/CartProvider";
 
-const siteName = process.env.NEXT_PUBLIC_SITE_NAME || "GIFTY";
+const siteName = process.env.NEXT_PUBLIC_SITE_NAME || "Пакет Пакетыч";
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL
   ? new URL(process.env.NEXT_PUBLIC_SITE_URL)
   : undefined;
@@ -15,15 +15,23 @@ export const metadata: Metadata = {
     template: `%s — ${siteName}`,
   },
   description:
-    "Подарочные пакеты, упаковка и открытки. Editorial‑витрина бренда + чистый e‑commerce + оптовый кабинет.",
+    "Пакет Пакетыч — каталог подарочных пакетов, упаковки и открыток с розничным магазином и B2B-кабинетом.",
   metadataBase: baseUrl,
   openGraph: {
     title: siteName,
     description:
-      "Подарочные пакеты, упаковка и открытки. Витрина бренда, магазин и опт.",
+      "Весёлый бренд подарочной упаковки: магазин, блог, партнёрские заявки и оптовый кабинет.",
     type: "website",
     locale: "ru_RU",
     siteName,
+    images: [
+      {
+        url: "/brand/logo-main.png",
+        width: 480,
+        height: 440,
+        alt: siteName,
+      },
+    ],
   },
   icons: {
     icon: "/favicon.png",
@@ -37,11 +45,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru" suppressHydrationWarning>
-      <body>
+      <body className="min-h-screen antialiased">
         <CartProvider>
-          <Header />
-          <main className="min-h-[70vh]">{children}</main>
-          <Footer />
+          <div className="relative isolate flex min-h-screen flex-col">
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </div>
         </CartProvider>
       </body>
     </html>

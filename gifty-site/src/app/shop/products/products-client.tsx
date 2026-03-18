@@ -1,11 +1,14 @@
 'use client';
 
+import Image from "next/image";
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Product } from "@/lib/types";
 import { getFilterOptions } from "@/lib/products";
 import { Input } from "@/components/Input";
 import { Filters, type SelectedFilters } from "@/components/Filters";
 import { ProductCard } from "@/components/ProductCard";
+import { Badge } from "@/components/Badge";
 
 const emptySelected: SelectedFilters = {
   types: [],
@@ -55,20 +58,31 @@ export function ProductsClient({ products }: { products: Product[] }) {
   }, [filtered]);
 
   return (
-    <div className="container py-10 md:py-14">
-      <div className="max-w-3xl">
-        <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">
-          Каталог
-        </h1>
-        <p className="mt-4 text-sm text-zinc-600">
-          Быстрые фильтры по типу, цвету, материалу, размеру, поводу и коллекции.
-        </p>
+    <div className="container py-8 md:py-12">
+      <div className="paper-card hero-burst overflow-hidden px-6 py-8 md:px-10">
+        <div className="grid gap-8 lg:grid-cols-[1.1fr_300px] lg:items-center">
+          <div>
+            <Badge>Розничный каталог</Badge>
+            <h1 className="brand-heading mt-4 text-4xl md:text-5xl">Пакеты, упаковка и открытки</h1>
+            <p className="mt-4 max-w-2xl text-base leading-7 text-[#8a6048]">
+              У каталога сохранилась прежняя логика: фильтры, поиск по SKU, карточки товаров и корзина. Мы обновили только внешний образ — теперь он дружелюбнее, теплее и заметно брендовее.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3 text-sm text-[#8a6048]">
+              <div className="paper-chip">{products.length} товаров</div>
+              <div className="paper-chip">{options.collections.length} коллекций</div>
+              <Link href="/wholesale" className="brand-link self-center">Перейти в опт →</Link>
+            </div>
+          </div>
+          <div className="paper-card-soft flex items-center justify-center p-4">
+            <Image src="/brand/mascot-wink.png" alt="Маскот каталога" width={220} height={205} className="h-auto w-full max-w-[180px]" />
+          </div>
+        </div>
       </div>
 
-      <div className="mt-8 grid gap-8 lg:grid-cols-[280px_1fr]">
+      <div className="mt-8 grid gap-8 lg:grid-cols-[300px_1fr]">
         <aside className="space-y-4">
-          <div className="rounded-xl border border-zinc-200 bg-white p-4">
-            <div className="text-sm font-medium text-zinc-900">Поиск</div>
+          <div className="paper-card p-4">
+            <div className="text-sm font-black uppercase tracking-[0.16em] text-[#ab310a]">Поиск</div>
             <div className="mt-3">
               <Input
                 value={query}
@@ -76,8 +90,8 @@ export function ProductsClient({ products }: { products: Product[] }) {
                 placeholder="Название, SKU, коллекция…"
               />
             </div>
-            <div className="mt-3 text-xs text-zinc-500">
-              Найдено: <span className="font-medium text-zinc-700">{filtered.length}</span>
+            <div className="mt-3 text-xs text-[#9b765f]">
+              Найдено: <span className="font-bold text-[#6b341c]">{filtered.length}</span>
             </div>
           </div>
 
@@ -103,8 +117,8 @@ export function ProductsClient({ products }: { products: Product[] }) {
           </div>
 
           {featuredFirst.length === 0 ? (
-            <div className="mt-10 rounded-2xl border border-zinc-200 bg-white p-8 text-sm text-zinc-600">
-              Ничего не найдено. Попробуйте снять часть фильтров.
+            <div className="paper-card mt-8 p-8 text-sm text-[#8a6048]">
+              Ничего не найдено. Попробуйте снять часть фильтров или изменить поисковый запрос.
             </div>
           ) : null}
         </section>
